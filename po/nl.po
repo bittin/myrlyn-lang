@@ -335,7 +335,7 @@ msgid "Retracted Installed Packages"
 msgstr "Teruggetrokken geïnstalleerde pakketten"
 
 #: YQPkgClassificationFilterView.cc:53 YQPkgSecondaryFilterView.cc:88
-#: YQPkgSelector.cc:734
+#: YQPkgSelector.cc:735
 msgid "All Packages"
 msgstr "Alle pakketten"
 
@@ -355,7 +355,7 @@ msgstr "&Expert"
 msgid "&Save This List to a File..."
 msgstr "Lijst op&slaan als bestand…"
 
-#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1276
+#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:644 YQPkgSelector.cc:1277
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
 #: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
@@ -384,7 +384,7 @@ msgstr ""
 "van bugs in de oplosser van afhankelijkheden. De logs zullen opgeslagen "
 "worden in map <br><tt>%1</tt></p>"
 
-#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1275 YQPkgSelector.cc:1327
+#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1276 YQPkgSelector.cc:1328
 #: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:627
 msgid "C&ontinue"
 msgstr "D&oorgaan"
@@ -480,8 +480,8 @@ msgid "Package Description"
 msgstr "Packetbeschrijving"
 
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1551
-#: YQPkgSelector.cc:1721 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1552
+#: YQPkgSelector.cc:1722 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
 #: ../aux/myrlyn-askpass.ui:188 repo-edit-add.ui:369
 #: zypp-history-filter-dialog.ui:298
 msgid "&OK"
@@ -636,11 +636,11 @@ msgstr "Automatisch installeren"
 msgid "Autoupdate"
 msgstr "Automatisch bijwerken"
 
-#: YQPkgObjList.cc:353 YQPkgObjList.cc:373 YQPkgSelector.cc:739
+#: YQPkgObjList.cc:353 YQPkgObjList.cc:373 YQPkgSelector.cc:740
 msgid "Update unconditionally"
 msgstr "Altijd bijwerken"
 
-#: YQPkgObjList.cc:368 YQPkgSelector.cc:736
+#: YQPkgObjList.cc:368 YQPkgSelector.cc:737
 msgid "Update if newer version available"
 msgstr "Bijwerken indien nieuwer"
 
@@ -712,7 +712,7 @@ msgstr "Onzichtbaar"
 msgid "Products"
 msgstr "Producten"
 
-#: YQPkgProductDialog.cc:80 YQPkgSelector.cc:568
+#: YQPkgProductDialog.cc:80 YQPkgSelector.cc:569
 msgid "Dependencies"
 msgstr "Afhankelijkheden"
 
@@ -782,215 +782,215 @@ msgstr "Zoeken"
 msgid "Status"
 msgstr "Status"
 
-#: YQPkgSelector.cc:311 search-filter-view.ui:53
+#: YQPkgSelector.cc:312 search-filter-view.ui:53
 msgid "&Search"
 msgstr "&Zoeken"
 
-#: YQPkgSelector.cc:325 YQPkgSelector.cc:1292
+#: YQPkgSelector.cc:326 YQPkgSelector.cc:1293
 msgid "Patc&hes"
 msgstr "Patches"
 
-#: YQPkgSelector.cc:337 YQPkgSelector.cc:1293
+#: YQPkgSelector.cc:338 YQPkgSelector.cc:1294
 msgid "&Updates"
 msgstr "Elementen voor &bijwerken"
 
-#: YQPkgSelector.cc:347
+#: YQPkgSelector.cc:348
 msgid "&Repositories"
 msgstr "Pakketb&ronnen"
 
-#: YQPkgSelector.cc:357
+#: YQPkgSelector.cc:358
 msgid "RPM &Groups"
 msgstr "RPM-&groepen"
 
-#: YQPkgSelector.cc:370
+#: YQPkgSelector.cc:371
 msgid "Repository Index Ser&vices"
 msgstr "Ser&vices voor opslagruimte-index"
 
-#: YQPkgSelector.cc:383
+#: YQPkgSelector.cc:384
 msgid "Pa&tterns"
 msgstr "Pa&tronen"
 
-#: YQPkgSelector.cc:394
+#: YQPkgSelector.cc:395
 msgid "Package Classi&fication"
 msgstr "Pakket-klassi&ficatie"
 
-#: YQPkgSelector.cc:405
+#: YQPkgSelector.cc:406
 msgid "&Languages"
 msgstr "Ta&len"
 
-#: YQPkgSelector.cc:415
+#: YQPkgSelector.cc:416
 msgid "Installation Su&mmary"
 msgstr "Samenvatting van installatie"
 
-#: YQPkgSelector.cc:543
+#: YQPkgSelector.cc:544
 msgid "Description"
 msgstr "Beschrijving"
 
-#: YQPkgSelector.cc:555
+#: YQPkgSelector.cc:556
 msgid "Technical Data"
 msgstr "Technische gegevens"
 
-#: YQPkgSelector.cc:582
+#: YQPkgSelector.cc:583
 msgid "Versions"
 msgstr "Versies"
 
-#: YQPkgSelector.cc:600
+#: YQPkgSelector.cc:601
 msgid "File List"
 msgstr "Bestandslijst"
 
-#: YQPkgSelector.cc:616
+#: YQPkgSelector.cc:617
 msgid "Change Log"
 msgstr "Wijzigingslog"
 
-#: YQPkgSelector.cc:637
+#: YQPkgSelector.cc:638
 msgid "Resolver: ??"
 msgstr "Oplosser:??"
 
-#: YQPkgSelector.cc:653 YQPkgTextDialog.cc:235
+#: YQPkgSelector.cc:654 YQPkgTextDialog.cc:235
 msgid "&Accept"
 msgstr "&Accepteren"
 
-#: YQPkgSelector.cc:692
+#: YQPkgSelector.cc:693
 msgid "&File"
 msgstr "&Bestand"
 
-#: YQPkgSelector.cc:695
+#: YQPkgSelector.cc:696
 msgid "&Accept Changes"
 msgstr "Wijzigingen &accepteren"
 
-#: YQPkgSelector.cc:697
+#: YQPkgSelector.cc:698
 msgid "&Quit - Discard Changes"
 msgstr "S&toppen -- wijzigingen negeren"
 
-#: YQPkgSelector.cc:709
+#: YQPkgSelector.cc:710
 msgid "&Package"
 msgstr "&Pakket"
 
-#: YQPkgSelector.cc:758
+#: YQPkgSelector.cc:759
 msgid "Patch"
 msgstr "Patch"
 
-#: YQPkgSelector.cc:784
+#: YQPkgSelector.cc:785
 msgid "&Dependencies"
 msgstr "Afhankelijkhe&den"
 
-#: YQPkgSelector.cc:786
+#: YQPkgSelector.cc:787
 msgid "&Check Now"
 msgstr "Nu &controleren"
 
-#: YQPkgSelector.cc:788
+#: YQPkgSelector.cc:789
 msgid "&Autocheck"
 msgstr "&Automatisch controleren"
 
-#: YQPkgSelector.cc:792
+#: YQPkgSelector.cc:793
 msgid "Install &Recommended Packages"
 msgstr "Aanbevolen pakketten installe&ren"
 
-#: YQPkgSelector.cc:805
+#: YQPkgSelector.cc:806
 msgid "&Options"
 msgstr "&Opties"
 
-#: YQPkgSelector.cc:808
+#: YQPkgSelector.cc:809
 msgid "Show -de&vel Packages"
 msgstr "-de&vel-pakketten tonen"
 
-#: YQPkgSelector.cc:818
+#: YQPkgSelector.cc:819
 msgid "Show -&debuginfo/-debugsource Packages"
 msgstr "&-debuginfo/-debugsource-pakketten tonen"
 
-#: YQPkgSelector.cc:828
+#: YQPkgSelector.cc:829
 msgid "&System Verification Mode"
 msgstr "&Systeemverificatiemodus"
 
-#: YQPkgSelector.cc:835
+#: YQPkgSelector.cc:836
 msgid "Options for this run only"
 msgstr "Eenmalig opties voor deze uitvoering"
 
-#: YQPkgSelector.cc:837
+#: YQPkgSelector.cc:838
 msgid "&Cleanup when deleting packages"
 msgstr "Bestanden oprui&men na verwijderen van pakketten"
 
-#: YQPkgSelector.cc:841
+#: YQPkgSelector.cc:842
 msgid "&Allow vendor change"
 msgstr "Lever&ancierswijzigingen toestaan"
 
-#: YQPkgSelector.cc:853
+#: YQPkgSelector.cc:854
 msgid "E&xtras"
 msgstr "E&xtra's"
 
-#: YQPkgSelector.cc:857
+#: YQPkgSelector.cc:858
 msgid "C&onfigure Repositories..."
 msgstr "Opslagruimten c&onfigurereren..."
 
-#: YQPkgSelector.cc:863
+#: YQPkgSelector.cc:864
 msgid "Show &Products"
 msgstr "&Producten tonen"
 
-#: YQPkgSelector.cc:864
+#: YQPkgSelector.cc:865
 msgid "Show Package &Changes"
 msgstr "Pakket&wijzigingen tonen"
 
-#: YQPkgSelector.cc:866
+#: YQPkgSelector.cc:867
 msgid "Show &History"
 msgstr "Gesc&hiedenis bekijken"
 
-#: YQPkgSelector.cc:873
+#: YQPkgSelector.cc:874
 msgid "Install All Matching -devel Packages"
 msgstr "Alle overeenkomende -devel-pakketten installeren"
 
-#: YQPkgSelector.cc:876
+#: YQPkgSelector.cc:877
 msgid "Install All Matching -debuginfo Packages"
 msgstr "Alle overeenkomende -debuginfo-pakketten installeren"
 
-#: YQPkgSelector.cc:879
+#: YQPkgSelector.cc:880
 msgid "Install All Matching -debugsource Packages"
 msgstr "Alle overeenkomende pakketten -debugsource installeren"
 
-#: YQPkgSelector.cc:881
+#: YQPkgSelector.cc:882
 msgid "Install All Matching Recommended Packages"
 msgstr "Alle overeenkomende aanbevolen pakketten installeren"
 
-#: YQPkgSelector.cc:887
+#: YQPkgSelector.cc:888
 msgid "Generate Dependency Resolver &Test Case"
 msgstr "&Testscenario voor afhankelijkheidsoplosser samenstellen"
 
-#: YQPkgSelector.cc:900
+#: YQPkgSelector.cc:901
 msgid "H&elp"
 msgstr "H&elp"
 
-#: YQPkgSelector.cc:906
+#: YQPkgSelector.cc:907
 msgid "&Overview"
 msgstr "&Overzicht"
 
-#: YQPkgSelector.cc:908
+#: YQPkgSelector.cc:909
 msgid "About &Myrlyn"
 msgstr "Info over &Myrlyn"
 
-#: YQPkgSelector.cc:909
+#: YQPkgSelector.cc:910
 msgid "About &Qt"
 msgstr "Info over &Qt"
 
-#: YQPkgSelector.cc:914
+#: YQPkgSelector.cc:915
 msgid "Rep&ository Configuration"
 msgstr "Configuratie van &opslagruimte"
 
-#: YQPkgSelector.cc:915
+#: YQPkgSelector.cc:916
 msgid "Root &Authentication"
 msgstr "&Authenticatie van root"
 
-#: YQPkgSelector.cc:916
+#: YQPkgSelector.cc:917
 msgid "&Development Status"
 msgstr "Status van &ontwikkeling"
 
-#: YQPkgSelector.cc:917
+#: YQPkgSelector.cc:918
 msgid "&Latest Release"
 msgstr "&Laatste uitgave"
 
-#: YQPkgSelector.cc:1159
+#: YQPkgSelector.cc:1160
 msgid "All package dependencies are OK."
 msgstr "Alle afhankelijkheden zijn in orde."
 
-#: YQPkgSelector.cc:1267
+#: YQPkgSelector.cc:1268
 msgid ""
 "There are pending changes.\n"
 "\n"
@@ -1006,20 +1006,20 @@ msgstr ""
 "moet u het programma herstarten, en zijn\n"
 "alle pakketwijzigingen verloren.\n"
 
-#: YQPkgSelector.cc:1325
+#: YQPkgSelector.cc:1326
 #, qt-format
 msgid "%1 packages will be updated"
 msgstr "%1 pakketten worden bijgewerkt"
 
-#: YQPkgSelector.cc:1355
+#: YQPkgSelector.cc:1356
 msgid "Dist-Upgrade Mode"
 msgstr "Modus dist-opwaardering (dup)"
 
-#: YQPkgSelector.cc:1356
+#: YQPkgSelector.cc:1357
 msgid "Package Update Mode"
 msgstr "Modus Pakketten bijwerken (up)"
 
-#: YQPkgSelector.cc:1394
+#: YQPkgSelector.cc:1395
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
@@ -1028,7 +1028,7 @@ msgstr ""
 "<p><a href=\"repoupgradeadd:///%1\">Systeempakketten wisselen met</a> "
 "versies in deze pakketbron (%2)</p>"
 
-#: YQPkgSelector.cc:1419
+#: YQPkgSelector.cc:1420
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
@@ -1037,7 +1037,7 @@ msgstr ""
 "<p><a href=\"repoupgraderemove:///%1\">Omschakelen annuleren</a> "
 "systeempakketten naar versies in opslagruimte %2</p>"
 
-#: YQPkgSelector.cc:1495
+#: YQPkgSelector.cc:1496
 #, qt-format
 msgid ""
 "Can't open zypp history file\n"
@@ -1050,7 +1050,7 @@ msgstr ""
 "\n"
 "Geen rechten?"
 
-#: YQPkgSelector.cc:1507
+#: YQPkgSelector.cc:1508
 #, qt-format
 msgid ""
 "Parse error in zypp history file\n"
@@ -1063,7 +1063,7 @@ msgstr ""
 "\n"
 "Controleer het logboek!"
 
-#: YQPkgSelector.cc:1550 YQPkgSelector.cc:1719
+#: YQPkgSelector.cc:1551 YQPkgSelector.cc:1720
 msgid "Added Subpackages:"
 msgstr "Toegevoegde aanvullende pakketten:"
 

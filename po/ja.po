@@ -336,7 +336,7 @@ msgid "Retracted Installed Packages"
 msgstr "撤回されたインストール済みパッケージ"
 
 #: YQPkgClassificationFilterView.cc:53 YQPkgSecondaryFilterView.cc:88
-#: YQPkgSelector.cc:734
+#: YQPkgSelector.cc:735
 msgid "All Packages"
 msgstr "すべてのパッケージ"
 
@@ -356,7 +356,7 @@ msgstr "熟練者向け (&E)"
 msgid "&Save This List to a File..."
 msgstr "この一覧をファイルに保存 (&S)..."
 
-#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1276
+#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:644 YQPkgSelector.cc:1277
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
 #: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
@@ -384,7 +384,7 @@ msgstr ""
 "<p>依存関係解決器のバグを追跡する目的で、広範囲のログを採取したい場合に使いま"
 "す。このログはディレクトリ <br><tt>%1</tt> に保存されます。</p>"
 
-#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1275 YQPkgSelector.cc:1327
+#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1276 YQPkgSelector.cc:1328
 #: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:627
 msgid "C&ontinue"
 msgstr "続行(&O)"
@@ -479,8 +479,8 @@ msgid "Package Description"
 msgstr "パッケージの説明"
 
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1551
-#: YQPkgSelector.cc:1721 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1552
+#: YQPkgSelector.cc:1722 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
 #: ../aux/myrlyn-askpass.ui:188 repo-edit-add.ui:369
 #: zypp-history-filter-dialog.ui:298
 msgid "&OK"
@@ -635,11 +635,11 @@ msgstr "自動インストール"
 msgid "Autoupdate"
 msgstr "自動更新"
 
-#: YQPkgObjList.cc:353 YQPkgObjList.cc:373 YQPkgSelector.cc:739
+#: YQPkgObjList.cc:353 YQPkgObjList.cc:373 YQPkgSelector.cc:740
 msgid "Update unconditionally"
 msgstr "強制的に更新する"
 
-#: YQPkgObjList.cc:368 YQPkgSelector.cc:736
+#: YQPkgObjList.cc:368 YQPkgSelector.cc:737
 msgid "Update if newer version available"
 msgstr "新しいバージョンがあれば更新する"
 
@@ -711,7 +711,7 @@ msgstr "非表示"
 msgid "Products"
 msgstr "製品"
 
-#: YQPkgProductDialog.cc:80 YQPkgSelector.cc:568
+#: YQPkgProductDialog.cc:80 YQPkgSelector.cc:569
 msgid "Dependencies"
 msgstr "依存関係"
 
@@ -778,218 +778,218 @@ msgstr "検索"
 msgid "Status"
 msgstr "状態"
 
-#: YQPkgSelector.cc:311 search-filter-view.ui:53
+#: YQPkgSelector.cc:312 search-filter-view.ui:53
 msgid "&Search"
 msgstr "検索 (&S)"
 
-#: YQPkgSelector.cc:325 YQPkgSelector.cc:1292
+#: YQPkgSelector.cc:326 YQPkgSelector.cc:1293
 msgid "Patc&hes"
 msgstr "修正 (&H)"
 
-#: YQPkgSelector.cc:337 YQPkgSelector.cc:1293
+#: YQPkgSelector.cc:338 YQPkgSelector.cc:1294
 msgid "&Updates"
 msgstr "更新 (&U)"
 
-#: YQPkgSelector.cc:347
+#: YQPkgSelector.cc:348
 msgid "&Repositories"
 msgstr "リポジトリ (&R)"
 
-#: YQPkgSelector.cc:357
+#: YQPkgSelector.cc:358
 msgid "RPM &Groups"
 msgstr "RPM グループ (&G)"
 
-#: YQPkgSelector.cc:370
+#: YQPkgSelector.cc:371
 msgid "Repository Index Ser&vices"
 msgstr "リポジトリインデックスサービス (&V)"
 
-#: YQPkgSelector.cc:383
+#: YQPkgSelector.cc:384
 msgid "Pa&tterns"
 msgstr "パターン (&T)"
 
-#: YQPkgSelector.cc:394
+#: YQPkgSelector.cc:395
 msgid "Package Classi&fication"
 msgstr "パッケージの分類 (&F)"
 
-#: YQPkgSelector.cc:405
+#: YQPkgSelector.cc:406
 msgid "&Languages"
 msgstr "言語 (&L)"
 
-#: YQPkgSelector.cc:415
+#: YQPkgSelector.cc:416
 msgid "Installation Su&mmary"
 msgstr "インストールの概要 (&M)"
 
-#: YQPkgSelector.cc:543
+#: YQPkgSelector.cc:544
 msgid "Description"
 msgstr "説明"
 
-#: YQPkgSelector.cc:555
+#: YQPkgSelector.cc:556
 msgid "Technical Data"
 msgstr "技術データ"
 
-#: YQPkgSelector.cc:582
+#: YQPkgSelector.cc:583
 msgid "Versions"
 msgstr "バージョン"
 
-#: YQPkgSelector.cc:600
+#: YQPkgSelector.cc:601
 msgid "File List"
 msgstr "ファイル一覧"
 
-#: YQPkgSelector.cc:616
+#: YQPkgSelector.cc:617
 msgid "Change Log"
 msgstr "変更ログ"
 
-#: YQPkgSelector.cc:637
+#: YQPkgSelector.cc:638
 msgid "Resolver: ??"
 msgstr "解決器: ??"
 
-#: YQPkgSelector.cc:653 YQPkgTextDialog.cc:235
+#: YQPkgSelector.cc:654 YQPkgTextDialog.cc:235
 msgid "&Accept"
 msgstr "了解 (&A)"
 
-#: YQPkgSelector.cc:692
+#: YQPkgSelector.cc:693
 msgid "&File"
 msgstr "ファイル (&F)"
 
-#: YQPkgSelector.cc:695
+#: YQPkgSelector.cc:696
 msgid "&Accept Changes"
 msgstr "変更点を受け入れる (&A)"
 
-#: YQPkgSelector.cc:697
+#: YQPkgSelector.cc:698
 msgid "&Quit - Discard Changes"
 msgstr "終了 - 変更点を保存しない (&Q)"
 
-#: YQPkgSelector.cc:709
+#: YQPkgSelector.cc:710
 msgid "&Package"
 msgstr "パッケージ (&P)"
 
-#: YQPkgSelector.cc:758
+#: YQPkgSelector.cc:759
 msgid "Patch"
 msgstr "修正"
 
-#: YQPkgSelector.cc:784
+#: YQPkgSelector.cc:785
 msgid "&Dependencies"
 msgstr "依存関係 (&D)"
 
-#: YQPkgSelector.cc:786
+#: YQPkgSelector.cc:787
 msgid "&Check Now"
 msgstr "今すぐ確認 (&C)"
 
-#: YQPkgSelector.cc:788
+#: YQPkgSelector.cc:789
 msgid "&Autocheck"
 msgstr "自動確認 (&A)"
 
-#: YQPkgSelector.cc:792
+#: YQPkgSelector.cc:793
 msgid "Install &Recommended Packages"
 msgstr "推奨パッケージをインストールする (&R)"
 
-#: YQPkgSelector.cc:805
+#: YQPkgSelector.cc:806
 msgid "&Options"
 msgstr "オプション (&O)"
 
 #  Translators: This is about packages ending in "-devel", so don't translate that "-devel"!
-#: YQPkgSelector.cc:808
+#: YQPkgSelector.cc:809
 msgid "Show -de&vel Packages"
 msgstr "-devel パッケージを表示 (&V)"
 
-#: YQPkgSelector.cc:818
+#: YQPkgSelector.cc:819
 msgid "Show -&debuginfo/-debugsource Packages"
 msgstr "-debuginfo/-debugsource パッケージを表示 (&D)"
 
-#: YQPkgSelector.cc:828
+#: YQPkgSelector.cc:829
 msgid "&System Verification Mode"
 msgstr "システム検証モード (&S)"
 
-#: YQPkgSelector.cc:835
+#: YQPkgSelector.cc:836
 msgid "Options for this run only"
 msgstr "今回の実行のみに適用するオプション"
 
-#: YQPkgSelector.cc:837
+#: YQPkgSelector.cc:838
 msgid "&Cleanup when deleting packages"
 msgstr "パッケージを削除する際に清掃を行う (&C)"
 
-#: YQPkgSelector.cc:841
+#: YQPkgSelector.cc:842
 msgid "&Allow vendor change"
 msgstr "製造元の変更を許可する (&A)"
 
-#: YQPkgSelector.cc:853
+#: YQPkgSelector.cc:854
 msgid "E&xtras"
 msgstr "さらなる機能 (&X)"
 
-#: YQPkgSelector.cc:857
+#: YQPkgSelector.cc:858
 msgid "C&onfigure Repositories..."
 msgstr "リポジトリの設定 (&O)..."
 
-#: YQPkgSelector.cc:863
+#: YQPkgSelector.cc:864
 msgid "Show &Products"
 msgstr "製品を表示する (&P)"
 
-#: YQPkgSelector.cc:864
+#: YQPkgSelector.cc:865
 msgid "Show Package &Changes"
 msgstr "パッケージ変更点の表示 (&C)"
 
-#: YQPkgSelector.cc:866
+#: YQPkgSelector.cc:867
 msgid "Show &History"
 msgstr "履歴の表示 (&H)"
 
-#: YQPkgSelector.cc:873
+#: YQPkgSelector.cc:874
 msgid "Install All Matching -devel Packages"
 msgstr "該当する全ての -devel パッケージをインストールする"
 
 #  Translators: This is about packages ending in "-devel", so don't translate that "-devel"!
-#: YQPkgSelector.cc:876
+#: YQPkgSelector.cc:877
 msgid "Install All Matching -debuginfo Packages"
 msgstr "該当する全ての -debuginfo パッケージをインストールする"
 
 #  Translators: This is about packages ending in "-devel", so don't translate that "-devel"!
-#: YQPkgSelector.cc:879
+#: YQPkgSelector.cc:880
 msgid "Install All Matching -debugsource Packages"
 msgstr "該当する全ての -debugsource パッケージをインストールする"
 
-#: YQPkgSelector.cc:881
+#: YQPkgSelector.cc:882
 msgid "Install All Matching Recommended Packages"
 msgstr "該当する全ての推奨パッケージをインストールする"
 
-#: YQPkgSelector.cc:887
+#: YQPkgSelector.cc:888
 msgid "Generate Dependency Resolver &Test Case"
 msgstr "依存関係の解決テストケースを生成 (&T)"
 
-#: YQPkgSelector.cc:900
+#: YQPkgSelector.cc:901
 msgid "H&elp"
 msgstr "ヘルプ (&E)"
 
-#: YQPkgSelector.cc:906
+#: YQPkgSelector.cc:907
 msgid "&Overview"
 msgstr "概要 (&O)"
 
-#: YQPkgSelector.cc:908
+#: YQPkgSelector.cc:909
 msgid "About &Myrlyn"
 msgstr "Myrlyn について (&M)"
 
-#: YQPkgSelector.cc:909
+#: YQPkgSelector.cc:910
 msgid "About &Qt"
 msgstr "Qt について (&Q)"
 
-#: YQPkgSelector.cc:914
+#: YQPkgSelector.cc:915
 msgid "Rep&ository Configuration"
 msgstr "リポジトリの設定 (&O)"
 
-#: YQPkgSelector.cc:915
+#: YQPkgSelector.cc:916
 msgid "Root &Authentication"
 msgstr "root 認証 (&A)"
 
-#: YQPkgSelector.cc:916
+#: YQPkgSelector.cc:917
 msgid "&Development Status"
 msgstr "開発状況 (&D)"
 
-#: YQPkgSelector.cc:917
+#: YQPkgSelector.cc:918
 msgid "&Latest Release"
 msgstr "最新リリース (&L)"
 
-#: YQPkgSelector.cc:1159
+#: YQPkgSelector.cc:1160
 msgid "All package dependencies are OK."
 msgstr "すべてのパッケージ依存関係を確認しました。"
 
-#: YQPkgSelector.cc:1267
+#: YQPkgSelector.cc:1268
 msgid ""
 "There are pending changes.\n"
 "\n"
@@ -1005,20 +1005,20 @@ msgstr ""
 "ここまでに設定したパッケージ変更を適用できず、\n"
 "失うことになってしまいます。\n"
 
-#: YQPkgSelector.cc:1325
+#: YQPkgSelector.cc:1326
 #, qt-format
 msgid "%1 packages will be updated"
 msgstr "%1 個のパッケージが更新されます"
 
-#: YQPkgSelector.cc:1355
+#: YQPkgSelector.cc:1356
 msgid "Dist-Upgrade Mode"
 msgstr "ディストリビューション更新モード"
 
-#: YQPkgSelector.cc:1356
+#: YQPkgSelector.cc:1357
 msgid "Package Update Mode"
 msgstr "パッケージ更新モード"
 
-#: YQPkgSelector.cc:1394
+#: YQPkgSelector.cc:1395
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
@@ -1027,7 +1027,7 @@ msgstr ""
 "<p>このリポジトリ(%2)内のバージョンに <a href=\"repoupgradeadd:///%1\">システ"
 "ムパッケージを切り替えます</a></p>"
 
-#: YQPkgSelector.cc:1419
+#: YQPkgSelector.cc:1420
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
@@ -1036,7 +1036,7 @@ msgstr ""
 "<p>リポジトリ %2 内のバージョンへのシステムパッケージの <a "
 "href=\"repoupgraderemove:///%1\">切り替えをキャンセルします</a></p>"
 
-#: YQPkgSelector.cc:1495
+#: YQPkgSelector.cc:1496
 #, qt-format
 msgid ""
 "Can't open zypp history file\n"
@@ -1049,7 +1049,7 @@ msgstr ""
 "\n"
 "アクセス許可が無い可能性があります。"
 
-#: YQPkgSelector.cc:1507
+#: YQPkgSelector.cc:1508
 #, qt-format
 msgid ""
 "Parse error in zypp history file\n"
@@ -1063,7 +1063,7 @@ msgstr ""
 "ログをご確認ください！"
 
 #  Translators: This is about packages ending in "-devel", so don't translate that "-devel"!
-#: YQPkgSelector.cc:1550 YQPkgSelector.cc:1719
+#: YQPkgSelector.cc:1551 YQPkgSelector.cc:1720
 msgid "Added Subpackages:"
 msgstr "追加されたサブパッケージ:"
 

@@ -324,7 +324,7 @@ msgid "Retracted Installed Packages"
 msgstr "已安装且已撤回的软件包"
 
 #: YQPkgClassificationFilterView.cc:53 YQPkgSecondaryFilterView.cc:88
-#: YQPkgSelector.cc:734
+#: YQPkgSelector.cc:735
 msgid "All Packages"
 msgstr "所有软件包"
 
@@ -344,7 +344,7 @@ msgstr "高级(&E)"
 msgid "&Save This List to a File..."
 msgstr "将列表保存为文件(&S)..."
 
-#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:643 YQPkgSelector.cc:1276
+#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:644 YQPkgSelector.cc:1277
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
 #: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
@@ -374,7 +374,7 @@ msgstr ""
 "<p>使用此功能可以生成详细日志，以便追踪依赖解析器中的错误。日志将存储在目录："
 "<br><tt>%1</tt></p>"
 
-#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1275 YQPkgSelector.cc:1327
+#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1276 YQPkgSelector.cc:1328
 #: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:627
 msgid "C&ontinue"
 msgstr "继续(&o)"
@@ -472,8 +472,8 @@ msgid "Package Description"
 msgstr "软件包描述"
 
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1551
-#: YQPkgSelector.cc:1721 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1552
+#: YQPkgSelector.cc:1722 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
 #: ../aux/myrlyn-askpass.ui:188 repo-edit-add.ui:369
 #: zypp-history-filter-dialog.ui:298
 msgid "&OK"
@@ -628,11 +628,11 @@ msgstr "自动安装"
 msgid "Autoupdate"
 msgstr "自动升级"
 
-#: YQPkgObjList.cc:353 YQPkgObjList.cc:373 YQPkgSelector.cc:739
+#: YQPkgObjList.cc:353 YQPkgObjList.cc:373 YQPkgSelector.cc:740
 msgid "Update unconditionally"
 msgstr "立即更新"
 
-#: YQPkgObjList.cc:368 YQPkgSelector.cc:736
+#: YQPkgObjList.cc:368 YQPkgSelector.cc:737
 msgid "Update if newer version available"
 msgstr "在新版本时更新"
 
@@ -704,7 +704,7 @@ msgstr "隐藏"
 msgid "Products"
 msgstr "产品"
 
-#: YQPkgProductDialog.cc:80 YQPkgSelector.cc:568
+#: YQPkgProductDialog.cc:80 YQPkgSelector.cc:569
 msgid "Dependencies"
 msgstr "依赖"
 
@@ -776,237 +776,237 @@ msgstr "搜索"
 msgid "Status"
 msgstr "状态"
 
-#: YQPkgSelector.cc:311 search-filter-view.ui:53
+#: YQPkgSelector.cc:312 search-filter-view.ui:53
 msgid "&Search"
 msgstr "搜索(&S)"
 
-#: YQPkgSelector.cc:325 YQPkgSelector.cc:1292
+#: YQPkgSelector.cc:326 YQPkgSelector.cc:1293
 #, fuzzy
 msgid "Patc&hes"
 msgstr "所有补丁"
 
-#: YQPkgSelector.cc:337 YQPkgSelector.cc:1293
+#: YQPkgSelector.cc:338 YQPkgSelector.cc:1294
 #, fuzzy
 msgid "&Updates"
 msgstr "升级"
 
-#: YQPkgSelector.cc:347
+#: YQPkgSelector.cc:348
 msgid "&Repositories"
 msgstr "软件源(&R)"
 
-#: YQPkgSelector.cc:357
+#: YQPkgSelector.cc:358
 #, fuzzy
 msgid "RPM &Groups"
 msgstr "RPM 组(&R)"
 
-#: YQPkgSelector.cc:370
+#: YQPkgSelector.cc:371
 #, fuzzy
 msgid "Repository Index Ser&vices"
 msgstr "软件源(&R)"
 
-#: YQPkgSelector.cc:383
+#: YQPkgSelector.cc:384
 #, fuzzy
 msgid "Pa&tterns"
 msgstr "模式(&P)"
 
-#: YQPkgSelector.cc:394
+#: YQPkgSelector.cc:395
 #, fuzzy
 msgid "Package Classi&fication"
 msgstr "软件包分类"
 
-#: YQPkgSelector.cc:405
+#: YQPkgSelector.cc:406
 msgid "&Languages"
 msgstr "语言(&L)"
 
-#: YQPkgSelector.cc:415
+#: YQPkgSelector.cc:416
 #, fuzzy
 msgid "Installation Su&mmary"
 msgstr "安装摘要"
 
-#: YQPkgSelector.cc:543
+#: YQPkgSelector.cc:544
 #, fuzzy
 msgid "Description"
 msgstr "描述(&e)"
 
-#: YQPkgSelector.cc:555
+#: YQPkgSelector.cc:556
 #, fuzzy
 msgid "Technical Data"
 msgstr "技术数据(&T)"
 
-#: YQPkgSelector.cc:582
+#: YQPkgSelector.cc:583
 #, fuzzy
 msgid "Versions"
 msgstr "版本(&V)"
 
-#: YQPkgSelector.cc:600
+#: YQPkgSelector.cc:601
 msgid "File List"
 msgstr "文件列表"
 
-#: YQPkgSelector.cc:616
+#: YQPkgSelector.cc:617
 msgid "Change Log"
 msgstr "更新日志"
 
-#: YQPkgSelector.cc:637
+#: YQPkgSelector.cc:638
 msgid "Resolver: ??"
 msgstr ""
 
-#: YQPkgSelector.cc:653 YQPkgTextDialog.cc:235
+#: YQPkgSelector.cc:654 YQPkgTextDialog.cc:235
 msgid "&Accept"
 msgstr "接受(&A)"
 
-#: YQPkgSelector.cc:692
+#: YQPkgSelector.cc:693
 msgid "&File"
 msgstr "文件(&F)"
 
-#: YQPkgSelector.cc:695
+#: YQPkgSelector.cc:696
 #, fuzzy
 msgid "&Accept Changes"
 msgstr "接受(&A)"
 
-#: YQPkgSelector.cc:697
+#: YQPkgSelector.cc:698
 #, fuzzy
 msgid "&Quit - Discard Changes"
 msgstr "退出 -- 放弃更改(&x)"
 
-#: YQPkgSelector.cc:709
+#: YQPkgSelector.cc:710
 msgid "&Package"
 msgstr "软件包(&P)"
 
-#: YQPkgSelector.cc:758
+#: YQPkgSelector.cc:759
 #, fuzzy
 msgid "Patch"
 msgstr "补丁(&P)"
 
-#: YQPkgSelector.cc:784
+#: YQPkgSelector.cc:785
 msgid "&Dependencies"
 msgstr "依赖项(&D)"
 
-#: YQPkgSelector.cc:786
+#: YQPkgSelector.cc:787
 msgid "&Check Now"
 msgstr "立即检查(&C)"
 
-#: YQPkgSelector.cc:788
+#: YQPkgSelector.cc:789
 msgid "&Autocheck"
 msgstr "自动检查(&A)"
 
-#: YQPkgSelector.cc:792
+#: YQPkgSelector.cc:793
 msgid "Install &Recommended Packages"
 msgstr "安装推荐的软件包(&R)"
 
-#: YQPkgSelector.cc:805
+#: YQPkgSelector.cc:806
 msgid "&Options"
 msgstr "设置(&O)"
 
-#: YQPkgSelector.cc:808
+#: YQPkgSelector.cc:809
 msgid "Show -de&vel Packages"
 msgstr "显示 -devel 软件包(&v)"
 
-#: YQPkgSelector.cc:818
+#: YQPkgSelector.cc:819
 msgid "Show -&debuginfo/-debugsource Packages"
 msgstr "显示 -debuginfo/-debugsource 软件包(&D)"
 
-#: YQPkgSelector.cc:828
+#: YQPkgSelector.cc:829
 msgid "&System Verification Mode"
 msgstr "系统验证模式(&S)"
 
-#: YQPkgSelector.cc:835
+#: YQPkgSelector.cc:836
 #, fuzzy
 msgid "Options for this run only"
 msgstr "仅应用于这次的选项..."
 
-#: YQPkgSelector.cc:837
+#: YQPkgSelector.cc:838
 msgid "&Cleanup when deleting packages"
 msgstr "删除软件包并清理相关文件"
 
-#: YQPkgSelector.cc:841
+#: YQPkgSelector.cc:842
 msgid "&Allow vendor change"
 msgstr "允许切换来源(&A)"
 
-#: YQPkgSelector.cc:853
+#: YQPkgSelector.cc:854
 msgid "E&xtras"
 msgstr "扩展功能(&x)"
 
-#: YQPkgSelector.cc:857
+#: YQPkgSelector.cc:858
 #, fuzzy
 msgid "C&onfigure Repositories..."
 msgstr "软件源(&R)..."
 
-#: YQPkgSelector.cc:863
+#: YQPkgSelector.cc:864
 msgid "Show &Products"
 msgstr "显示软件包(&P)"
 
-#: YQPkgSelector.cc:864
+#: YQPkgSelector.cc:865
 #, fuzzy
 msgid "Show Package &Changes"
 msgstr "显示软件包变动(&a)"
 
-#: YQPkgSelector.cc:866
+#: YQPkgSelector.cc:867
 msgid "Show &History"
 msgstr "显示历史记录(&H)"
 
-#: YQPkgSelector.cc:873
+#: YQPkgSelector.cc:874
 #, fuzzy
 msgid "Install All Matching -devel Packages"
 msgstr "安装所有匹配的 -&devel 软件包(&d)"
 
-#: YQPkgSelector.cc:876
+#: YQPkgSelector.cc:877
 #, fuzzy
 msgid "Install All Matching -debuginfo Packages"
 msgstr "安装所有匹配的 -de&buginfo 软件包(&b)"
 
-#: YQPkgSelector.cc:879
+#: YQPkgSelector.cc:880
 #, fuzzy
 msgid "Install All Matching -debugsource Packages"
 msgstr "安装所有匹配的 -debug&source 软件包(&s)"
 
-#: YQPkgSelector.cc:881
+#: YQPkgSelector.cc:882
 #, fuzzy
 msgid "Install All Matching Recommended Packages"
 msgstr "安装所有匹配的被推荐软件包(&R)"
 
-#: YQPkgSelector.cc:887
+#: YQPkgSelector.cc:888
 msgid "Generate Dependency Resolver &Test Case"
 msgstr "生成依赖解析器(测试用例) (&T)"
 
-#: YQPkgSelector.cc:900
+#: YQPkgSelector.cc:901
 msgid "H&elp"
 msgstr ""
 
-#: YQPkgSelector.cc:906
+#: YQPkgSelector.cc:907
 msgid "&Overview"
 msgstr "概览(&O)"
 
-#: YQPkgSelector.cc:908
+#: YQPkgSelector.cc:909
 msgid "About &Myrlyn"
 msgstr ""
 
-#: YQPkgSelector.cc:909
+#: YQPkgSelector.cc:910
 msgid "About &Qt"
 msgstr ""
 
-#: YQPkgSelector.cc:914
+#: YQPkgSelector.cc:915
 #, fuzzy
 msgid "Rep&ository Configuration"
 msgstr "配置(&C)"
 
-#: YQPkgSelector.cc:915
+#: YQPkgSelector.cc:916
 #, fuzzy
 msgid "Root &Authentication"
 msgstr "通讯"
 
-#: YQPkgSelector.cc:916
+#: YQPkgSelector.cc:917
 msgid "&Development Status"
 msgstr ""
 
-#: YQPkgSelector.cc:917
+#: YQPkgSelector.cc:918
 msgid "&Latest Release"
 msgstr ""
 
-#: YQPkgSelector.cc:1159
+#: YQPkgSelector.cc:1160
 msgid "All package dependencies are OK."
 msgstr "所有软件包依赖关系正常。"
 
-#: YQPkgSelector.cc:1267
+#: YQPkgSelector.cc:1268
 msgid ""
 "There are pending changes.\n"
 "\n"
@@ -1016,21 +1016,21 @@ msgid ""
 "will be lost.\n"
 msgstr ""
 
-#: YQPkgSelector.cc:1325
+#: YQPkgSelector.cc:1326
 #, qt-format
 msgid "%1 packages will be updated"
 msgstr "%1 个软件包将被更新"
 
-#: YQPkgSelector.cc:1355
+#: YQPkgSelector.cc:1356
 msgid "Dist-Upgrade Mode"
 msgstr ""
 
-#: YQPkgSelector.cc:1356
+#: YQPkgSelector.cc:1357
 #, fuzzy
 msgid "Package Update Mode"
 msgstr "软件包"
 
-#: YQPkgSelector.cc:1394
+#: YQPkgSelector.cc:1395
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
@@ -1039,7 +1039,7 @@ msgstr ""
 "<p><a href=\"repoupgradeadd:///%1\">将系统软件包切换</a>到此仓库 (%2) 中的版"
 "本</p>"
 
-#: YQPkgSelector.cc:1419
+#: YQPkgSelector.cc:1420
 #, fuzzy, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
@@ -1048,7 +1048,7 @@ msgstr ""
 "<p><small><a href=\"repoupgraderemove:///%1\">取消将</a>系统软件包切换为软件"
 "源 %2 中的版本</small></p>"
 
-#: YQPkgSelector.cc:1495
+#: YQPkgSelector.cc:1496
 #, qt-format
 msgid ""
 "Can't open zypp history file\n"
@@ -1057,7 +1057,7 @@ msgid ""
 "No permissions?"
 msgstr ""
 
-#: YQPkgSelector.cc:1507
+#: YQPkgSelector.cc:1508
 #, qt-format
 msgid ""
 "Parse error in zypp history file\n"
@@ -1066,7 +1066,7 @@ msgid ""
 "Check the log!"
 msgstr ""
 
-#: YQPkgSelector.cc:1550 YQPkgSelector.cc:1719
+#: YQPkgSelector.cc:1551 YQPkgSelector.cc:1720
 msgid "Added Subpackages:"
 msgstr "已添加的子包："
 
