@@ -1,18 +1,41 @@
+# translation of qt-pkg.po to
+# Chinese message file for YaST2 (@memory@). -*- coding: utf-8 -*-
+# Copyright (C) 2002 SuSE Linux AG.
+# Copyright (C) 2001 SuSE GmbH.
+#
+# swyear <swyear@gmail.com>, 2008.
+# Ray Chen <swyear@gmail.com>, 2009, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: qt-pkg\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 02:28+0000\n"
+"PO-Revision-Date: 2026-11-02 01:09+0000\n"
+"Last-Translator: anenasa <user-7066@noreply.codeberg.org>\n"
+"Language-Team: Chinese (Traditional Han script) <https://"
+"translate.codeberg.org/projects/myrlyn-lang/myrlyn-lang/zh_Hant/>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.10.1\n"
+
 #: MyrlynApp.cc:209
 msgid " [root]"
-msgstr ""
+msgstr " [root]"
 
 #: MyrlynApp.cc:212 RepoConfigDialog.cc:64
 msgid " (read-only)"
-msgstr ""
+msgstr " （唯讀）"
 
 #: MyrlynApp.cc:233
 msgid "Preparing the package selector..."
-msgstr ""
+msgstr "正在準備套件選擇器..."
 
 #: MyrlynApp.cc:491
 msgid "Really quit?"
-msgstr ""
+msgstr "確定要退出嗎？"
 
 #: MyrlynRepoManager.cc:296
 msgid ""
@@ -22,6 +45,11 @@ msgid ""
 "\n"
 "and restart the program."
 msgstr ""
+"載入套件庫時發生錯誤。請執行\n"
+"\n"
+"    sudo zypper refresh\n"
+"\n"
+"然後重新啟動程式。"
 
 #: MyrlynRepoManager.cc:302 MyrlynWorkflowSteps.cc:172
 #: YQPkgConflictDialog.cc:363 YQPkgConflictList.cc:160
@@ -35,6 +63,9 @@ msgid ""
 "\n"
 "This repository is now disabled for this program run."
 msgstr ""
+"無法重新整理套件庫「%1」。\n"
+"\n"
+"此次程式執行會停用此套件庫。"
 
 #: MyrlynRepoManager.cc:329
 #, qt-format
@@ -44,6 +75,10 @@ msgid ""
 "%1\n"
 "Those repositories are now disabled for this program run."
 msgstr ""
+"無法重新整理套件庫\n"
+"\n"
+"%1\n"
+"此次程式執行會停用這些套件庫。"
 
 #: MyrlynRepoManager.cc:337 YQPkgConflictDialog.cc:63
 msgid "Warning"
@@ -54,57 +89,54 @@ msgid ""
 "Can't connect to the package manager!\n"
 "It may be busy in another window.\n"
 msgstr ""
+"無法連線到套件管理員！\n"
+"可能在另一個視窗正忙。\n"
 
 #: PkgCommitPage.cc:145 pkg-commit-page.ui:113
 msgid "To Do"
-msgstr ""
+msgstr "待辦事項"
 
 #: PkgCommitPage.cc:146 pkg-commit-page.ui:238
-#, fuzzy
 msgid "Downloads"
-msgstr "下載大小："
+msgstr "下載"
 
 #: PkgCommitPage.cc:147 pkg-commit-page.ui:376
 msgid "Done"
-msgstr ""
+msgstr "完成"
 
 #: PkgCommitPage.cc:292 pkg-commit-page.ui:61
-#, fuzzy
 msgid "Hide &Details"
-msgstr "詳細資訊(&D)..."
+msgstr "隱藏詳細資訊(&D)"
 
 #: PkgCommitPage.cc:292
-#, fuzzy
 msgid "Show &Details"
-msgstr "詳細資訊(&D)..."
+msgstr "顯示詳細資訊(&D)"
 
 #: PkgCommitPage.cc:337
 msgid "Really cancel the current package actions?"
-msgstr ""
+msgstr "您確定要取消目前的套件動作？"
 
 #: PkgCommitPage.cc:538
-#, fuzzy
 msgid "Checking File Conflicts..."
-msgstr "正在檢查相依項..."
+msgstr "正在檢查檔案衝突..."
 
 #: PkgCommitPage.cc:707
-#, fuzzy, qt-format
+#, qt-format
 msgid "Error downloading package %1"
-msgstr "從 %1 載入套件清單時發生錯誤"
+msgstr "下載套件 %1 時發生錯誤"
 
 #: PkgCommitPage.cc:755 PkgCommitPage.cc:784
-#, fuzzy, qt-format
+#, qt-format
 msgid "Error installing package %1"
-msgstr "將套件清單輸出至 %1 時發生錯誤"
+msgstr "安裝套件 %1 時發生錯誤"
 
 #: PkgCommitPage.cc:972
 msgid "[Post-transaction scripts]"
 msgstr ""
 
 #: PkgCommitPage.cc:1122
-#, fuzzy
 msgid "File Conflict"
-msgstr "檔案清單"
+msgstr "檔案衝突"
 
 #: QY2DiskUsageList.cc:162 RepoTable.cc:39 YQPkgRepoList.cc:48
 #: YQPkgServiceList.cc:46 zypp-history-browser.ui:157
@@ -113,20 +145,20 @@ msgstr "名稱"
 
 #: QY2DiskUsageList.cc:164
 msgid "Disk Usage"
-msgstr ""
+msgstr "磁碟用量"
 
 #: QY2DiskUsageList.cc:165
 msgid "Free"
-msgstr ""
+msgstr "剩餘"
 
 #: QY2DiskUsageList.cc:166
 msgid "Total"
-msgstr ""
+msgstr "總計"
 
 #: QY2DiskUsageList.cc:228
 #, qt-format
 msgid "Used %1"
-msgstr ""
+msgstr "已使用 %1"
 
 #: RepoConfigDialog.cc:324
 #, qt-format
@@ -135,6 +167,9 @@ msgid ""
 "\n"
 "URL: %2"
 msgstr ""
+"你確定要刪除套件庫「%1」嗎？\n"
+"\n"
+"網址：%2"
 
 #: RepoConfigDialog.cc:350
 msgid ""
@@ -143,137 +178,135 @@ msgid ""
 "\n"
 "Quitting now. Please restart."
 msgstr ""
+"應用程式需要重新啟動\n"
+"變更才能生效。\n"
+"\n"
+"正在退出。請重新啟動。"
 
 #: RepoEditDialog.cc:105
 msgid "See also  'man zypper'"
-msgstr ""
+msgstr "另請參閱  'man zypper'"
 
 #: RepoEditDialog.cc:113
-#, fuzzy
 msgid "Add Repository"
-msgstr "儲存庫(&R)"
+msgstr "加入套件庫"
 
 #: RepoEditDialog.cc:113
-#, fuzzy
 msgid "Edit Repository"
-msgstr "儲存庫(&R)"
+msgstr "編輯套件庫"
 
 #: RepoEditDialog.cc:247
 msgid "Invalid URL: "
-msgstr ""
+msgstr "無效的網址： "
 
 #: RepoEditDialog.cc:252
 msgid "Invalid input: "
-msgstr ""
+msgstr "無效的輸入： "
 
 #: RepoGpgKeyImportDialog.cc:110
 #, qt-format
 msgid "Repository \"%1\" will be temporarily disabled."
-msgstr ""
+msgstr "套件庫「%1」將會暫時停用。"
 
 #: RepoTable.cc:40
 msgid "Priority"
-msgstr ""
+msgstr "優先程度"
 
 #: RepoTable.cc:41
 msgid "Enabled"
-msgstr ""
+msgstr "已啟用"
 
 #: RepoTable.cc:42
 msgid "Auto-Refresh"
-msgstr ""
+msgstr "自動重新整理"
 
 #: RepoTable.cc:43
-#, fuzzy
 msgid "Service"
-msgstr "服務(&S)"
+msgstr "服務"
 
 #: RepoTable.cc:44
-#, fuzzy
 msgid "URL"
-msgstr "URL："
+msgstr "網址"
 
 #: SummaryPage.cc:124
 #, qt-format
 msgid "%1 s"
-msgstr ""
+msgstr "%1 s"
 
 #: SummaryPage.cc:182
 msgid "Close after 300 seconds (5 minutes)"
-msgstr ""
+msgstr "300 秒（5 分鐘）後關閉"
 
 #: SummaryPage.cc:183
 msgid "Don't automatically close"
-msgstr ""
+msgstr "不要自動關閉"
 
 #: SummaryPage.cc:199
 #, qt-format
 msgid "Close after %1 seconds"
-msgstr ""
+msgstr "%1 秒後關閉"
 
 #: SummaryPage.cc:267
-#, fuzzy
 msgid "No package changes."
-msgstr "顯示套件變更(&A)"
+msgstr "沒有套件變更。"
 
 #: SummaryPage.cc:311
 #, qt-format
 msgid "FAILED: %1"
-msgstr ""
+msgstr "失敗：%1"
 
 #: SummaryPage.cc:312
 #, qt-format
 msgid "Packages removed by user: %1"
-msgstr ""
+msgstr "被使用者移除的套件：%1"
 
 #: SummaryPage.cc:313
 #, qt-format
 msgid "Packages removed because of dependencies: %1"
-msgstr ""
+msgstr "由於相依性移除的套件：%1"
 
 #: SummaryPage.cc:314
 #, qt-format
 msgid "Packages installed by user: %1"
-msgstr ""
+msgstr "被使用者安裝的套件：%1"
 
 #: SummaryPage.cc:315
 #, qt-format
 msgid "Packages installed because of dependencies: %1"
-msgstr ""
+msgstr "由於相依性安裝的套件：%1"
 
 #: SummaryPage.cc:316
 #, qt-format
 msgid "Packages updated by user: %1"
-msgstr ""
+msgstr "被使用者更新的套件：%1"
 
 #: SummaryPage.cc:317
 #, qt-format
 msgid "Packages updated because of dependencies: %1"
-msgstr ""
+msgstr "由於相依性更新的套件：%1"
 
 #: SummaryPage.cc:318
 #, qt-format
 msgid "To do: %1"
-msgstr ""
+msgstr "待辦事項：%1"
 
 #: SummaryPage.cc:367
 #, qt-format
 msgid "(%1 more)"
-msgstr ""
+msgstr "（還有 %1 個）"
 
 #: SummaryPage.cc:383
-#, fuzzy
 msgid "Reboot recommended."
-msgstr "推薦"
+msgstr "建議重新啟動。"
 
 #: YQPkgChangeLogView.cc:74 YQPkgFileListView.cc:62
 msgid "Information only available for installed packages."
 msgstr "資訊僅針對已安裝套件提供。"
 
 #: YQPkgChangeLogView.cc:116
-#, fuzzy, qt-format
+#, qt-format
 msgid "(%1 more; run \"%2\" to see the complete change log)"
-msgstr "(還有 %1 個變更項目未顯示。執行「%2」可查看完整的變更記錄。)"
+msgstr "（還有 %1 個，執行「%2」可查看完整的變更記錄）"
 
 #: YQPkgChangesDialog.cc:48
 msgid "Changed Packages"
@@ -352,18 +385,16 @@ msgid "&Cancel"
 msgstr "取消(&C)"
 
 #: YQPkgConflictDialog.cc:190
-#, fuzzy
 msgid "Verifying System Dependencies"
-msgstr "正在檢查相依項..."
+msgstr "正在確認系統相依性"
 
 #: YQPkgConflictDialog.cc:321
 msgid "Create Dependency Resolver Test Case"
 msgstr "建立相依性解析程式測試個案"
 
 #: YQPkgConflictDialog.cc:325
-#, fuzzy
 msgid "You need to run the dependency resolver first."
-msgstr "產生相依性解析程式測試個案(&T)"
+msgstr "您需要先執行相依性解析程式。"
 
 #: YQPkgConflictDialog.cc:333
 #, qt-format
@@ -380,11 +411,9 @@ msgid "C&ontinue"
 msgstr "繼續(&O)"
 
 #: YQPkgConflictDialog.cc:351
-#, fuzzy, qt-format
+#, qt-format
 msgid "<p>Dependency resolver test case written to <br><tt>%1</tt></p>"
-msgstr ""
-"<p>相依性解析程式測試個案寫入 <br><tt>%1</tt></p><p>準備將 <tt>y2logs.tgz "
-"tar</tt> 歸檔附加至 Bugzilla？</p>"
+msgstr "<p>相依性解析程式測試個案寫入 <br><tt>%1</tt></p>"
 
 #: YQPkgConflictDialog.cc:354
 msgid "Success"
@@ -400,12 +429,11 @@ msgstr ""
 "tt> 的許可權</p>"
 
 #: YQPkgConflictList.cc:138
-#, fuzzy
 msgid "Save conflicts list"
 msgstr "儲存衝突清單"
 
 #: YQPkgConflictList.cc:161
-#, fuzzy, qt-format
+#, qt-format
 msgid "Can't open file %1"
 msgstr "無法開啟檔案 %1"
 
@@ -682,7 +710,7 @@ msgstr "選擇性"
 
 #: YQPkgPatchList.cc:593
 msgid "feature"
-msgstr ""
+msgstr "功能"
 
 #: YQPkgPatchList.cc:594
 msgid "document"
@@ -717,34 +745,31 @@ msgid "Vendor"
 msgstr "廠商"
 
 #: YQPkgRepoFilterView.cc:92
-#, fuzzy
 msgid "Protect All"
-msgstr "保護"
+msgstr "全部保護"
 
 #: YQPkgRepoFilterView.cc:99
-#, fuzzy
 msgid "Un-Protect All"
-msgstr "保護"
+msgstr "全部取消保護"
 
 #: YQPkgRpmGroupsFilterView.cc:32
-#, fuzzy
 msgid "RPM Groups"
-msgstr "RPM 群組(&R)"
+msgstr "RPM 群組"
 
 #: YQPkgRpmGroupsFilterView.cc:252
 #, qt-format
 msgid "zzz Unspecified (%1)"
-msgstr ""
+msgstr "zzz 未指定 (%1)"
 
 #: YQPkgSearchFilterView.cc:160
 #, qt-format
 msgid "Default: %1"
-msgstr ""
+msgstr "預設：%1"
 
 #: YQPkgSearchFilterView.cc:167
 #, qt-format
 msgid "Detected: %1"
-msgstr ""
+msgstr "偵測到：%1"
 
 #: YQPkgSearchFilterView.cc:443
 msgid "No Results."
@@ -759,14 +784,12 @@ msgid "&Secondary Filter:"
 msgstr "次要過濾器(&S)︰"
 
 #: YQPkgSecondaryFilterView.cc:97
-#, fuzzy
 msgid "Installed Packages"
-msgstr "安裝的已收回套件"
+msgstr "已安裝的套件"
 
 #: YQPkgSecondaryFilterView.cc:106
-#, fuzzy
 msgid "Not Installed Packages"
-msgstr "安裝的已收回套件"
+msgstr "未安裝的套件"
 
 #: YQPkgSecondaryFilterView.cc:116
 msgid "Search"
@@ -781,62 +804,52 @@ msgid "&Search"
 msgstr "搜尋(&S)"
 
 #: YQPkgSelector.cc:326 YQPkgSelector.cc:1293
-#, fuzzy
 msgid "Patc&hes"
-msgstr "所有修補程式"
+msgstr "修補程式(&H)"
 
 #: YQPkgSelector.cc:338 YQPkgSelector.cc:1294
-#, fuzzy
 msgid "&Updates"
-msgstr "更新"
+msgstr "更新(&U)"
 
 #: YQPkgSelector.cc:348
 msgid "&Repositories"
-msgstr "儲存庫(&R)"
+msgstr "套件庫(&R)"
 
 #: YQPkgSelector.cc:358
-#, fuzzy
 msgid "RPM &Groups"
-msgstr "RPM 群組(&R)"
+msgstr "RPM 群組(&G)"
 
 #: YQPkgSelector.cc:371
-#, fuzzy
 msgid "Repository Index Ser&vices"
-msgstr "儲存庫(&R)"
+msgstr "套件庫索引服務(&V)"
 
 #: YQPkgSelector.cc:384
-#, fuzzy
 msgid "Pa&tterns"
-msgstr "樣式(&P)"
+msgstr "樣式(&T)"
 
 #: YQPkgSelector.cc:395
-#, fuzzy
 msgid "Package Classi&fication"
-msgstr "套件分類"
+msgstr "套件分類(&F)"
 
 #: YQPkgSelector.cc:406
 msgid "&Languages"
 msgstr "語言(&L)"
 
 #: YQPkgSelector.cc:416
-#, fuzzy
 msgid "Installation Su&mmary"
-msgstr "安裝摘要"
+msgstr "安裝摘要(&M)"
 
 #: YQPkgSelector.cc:544
-#, fuzzy
 msgid "Description"
-msgstr "描述(&E)"
+msgstr "描述"
 
 #: YQPkgSelector.cc:556
-#, fuzzy
 msgid "Technical Data"
-msgstr "技術資料(&T)"
+msgstr "技術資料"
 
 #: YQPkgSelector.cc:583
-#, fuzzy
 msgid "Versions"
-msgstr "版本(&V)"
+msgstr "版本"
 
 #: YQPkgSelector.cc:601
 msgid "File List"
@@ -848,7 +861,7 @@ msgstr "變更記錄"
 
 #: YQPkgSelector.cc:638
 msgid "Resolver: ??"
-msgstr ""
+msgstr "解析程式：??"
 
 #: YQPkgSelector.cc:654 YQPkgTextDialog.cc:235
 msgid "&Accept"
@@ -859,23 +872,20 @@ msgid "&File"
 msgstr "檔案(&F)"
 
 #: YQPkgSelector.cc:696
-#, fuzzy
 msgid "&Accept Changes"
-msgstr "接受(&A)"
+msgstr "接受變更(&A)"
 
 #: YQPkgSelector.cc:698
-#, fuzzy
 msgid "&Quit - Discard Changes"
-msgstr "離開(&X) -- 丟棄變更"
+msgstr "退出(&Q) - 捨棄變更"
 
 #: YQPkgSelector.cc:710
 msgid "&Package"
 msgstr "套件(&P)"
 
 #: YQPkgSelector.cc:759
-#, fuzzy
 msgid "Patch"
-msgstr "修補程式(&P)"
+msgstr "修補程式"
 
 #: YQPkgSelector.cc:785
 msgid "&Dependencies"
@@ -910,9 +920,8 @@ msgid "&System Verification Mode"
 msgstr "系統驗證模式(&S)"
 
 #: YQPkgSelector.cc:836
-#, fuzzy
 msgid "Options for this run only"
-msgstr "僅用於此次執行的選項…"
+msgstr "僅用於此次執行的選項"
 
 #: YQPkgSelector.cc:838
 msgid "&Cleanup when deleting packages"
@@ -927,42 +936,36 @@ msgid "E&xtras"
 msgstr "額外(&X)"
 
 #: YQPkgSelector.cc:858
-#, fuzzy
 msgid "C&onfigure Repositories..."
-msgstr "儲存庫(&R)..."
+msgstr "設定套件庫(&O)..."
 
 #: YQPkgSelector.cc:864
 msgid "Show &Products"
 msgstr "顯示產品(&P)"
 
 #: YQPkgSelector.cc:865
-#, fuzzy
 msgid "Show Package &Changes"
-msgstr "顯示套件變更(&A)"
+msgstr "顯示套件變更(&C)"
 
 #: YQPkgSelector.cc:867
 msgid "Show &History"
 msgstr "顯示歷史記錄(&H)"
 
 #: YQPkgSelector.cc:874
-#, fuzzy
 msgid "Install All Matching -devel Packages"
-msgstr "安裝所有相符的 -devel 套件(&D)"
+msgstr "安裝所有相符的 -devel 套件"
 
 #: YQPkgSelector.cc:877
-#, fuzzy
 msgid "Install All Matching -debuginfo Packages"
-msgstr "安裝所有相符的 -debuginfo 套件(&B)"
+msgstr "安裝所有相符的 -debuginfo 套件"
 
 #: YQPkgSelector.cc:880
-#, fuzzy
 msgid "Install All Matching -debugsource Packages"
-msgstr "安裝所有相符的 -debugsource 套件(&S)"
+msgstr "安裝所有相符的 -debugsource 套件"
 
 #: YQPkgSelector.cc:882
-#, fuzzy
 msgid "Install All Matching Recommended Packages"
-msgstr "安裝所有相符的推薦套件(&R)"
+msgstr "安裝所有相符的推薦套件"
 
 #: YQPkgSelector.cc:888
 msgid "Generate Dependency Resolver &Test Case"
@@ -970,7 +973,7 @@ msgstr "產生相依性解析程式測試個案(&T)"
 
 #: YQPkgSelector.cc:901
 msgid "H&elp"
-msgstr ""
+msgstr "說明(&E)"
 
 #: YQPkgSelector.cc:907
 msgid "&Overview"
@@ -978,29 +981,27 @@ msgstr "綜覽(&O)"
 
 #: YQPkgSelector.cc:909
 msgid "About &Myrlyn"
-msgstr ""
+msgstr "關於 &Myrlyn"
 
 #: YQPkgSelector.cc:910
 msgid "About &Qt"
-msgstr ""
+msgstr "關於 &Qt"
 
 #: YQPkgSelector.cc:915
-#, fuzzy
 msgid "Rep&ository Configuration"
-msgstr "組態(&C)"
+msgstr "套件庫設定(&O)"
 
 #: YQPkgSelector.cc:916
-#, fuzzy
 msgid "Root &Authentication"
-msgstr "通訊"
+msgstr "Root 認證(&A)"
 
 #: YQPkgSelector.cc:917
 msgid "&Development Status"
-msgstr ""
+msgstr "開發狀態(&D)"
 
 #: YQPkgSelector.cc:918
 msgid "&Latest Release"
-msgstr ""
+msgstr "最新發行版本(&L)"
 
 #: YQPkgSelector.cc:1160
 msgid "All package dependencies are OK."
@@ -1015,6 +1016,12 @@ msgid ""
 "restart the program, and all package changes\n"
 "will be lost.\n"
 msgstr ""
+"有等待中的變更。\n"
+"\n"
+"如果您繼續前往套件庫設定\n"
+"並做出任何變更，您將需要\n"
+"重新啟動程式，而所有套件\n"
+"變更將會遺失。\n"
 
 #: YQPkgSelector.cc:1326
 #, qt-format
@@ -1023,11 +1030,11 @@ msgstr "將更新 %1 個套件"
 
 #: YQPkgSelector.cc:1356
 msgid "Dist-Upgrade Mode"
-msgstr ""
+msgstr "發行版本升級模式"
 
 #: YQPkgSelector.cc:1357
 msgid "Package Update Mode"
-msgstr ""
+msgstr "套件更新模式"
 
 #: YQPkgSelector.cc:1395
 #, qt-format
@@ -1035,17 +1042,17 @@ msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
 "versions in this repository (%2)</p>"
 msgstr ""
-"<p><a href=\"repoupgradeadd:///%1\">將系統套件切換</a>至此儲存庫 (%2) 中的版"
+"<p><a href=\"repoupgradeadd:///%1\">將系統套件切換</a>至此套件庫 (%2) 中的版"
 "本</p>"
 
 #: YQPkgSelector.cc:1420
-#, fuzzy, qt-format
+#, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
 "to versions in repository %2</p>"
 msgstr ""
-"<p><small><a href=\"repoupgraderemove:///%1\">取消</a>將系統套件切換至儲存庫 "
-"%2 中的版本</small></p>"
+"<p><a href=\"repoupgraderemove:///%1\">取消</a>將系統套件切換至套件庫 %2 中的"
+"版本</p>"
 
 #: YQPkgSelector.cc:1496
 #, qt-format
@@ -1055,6 +1062,10 @@ msgid ""
 "\n"
 "No permissions?"
 msgstr ""
+"無法開啟 zypp 歷史記錄檔\n"
+"%1\n"
+"\n"
+"沒有權限？"
 
 #: YQPkgSelector.cc:1508
 #, qt-format
@@ -1097,9 +1108,8 @@ msgid "The following items will be changed: "
 msgstr "將會變更下列各項︰ "
 
 #: YQPkgSelectorBase.cc:210
-#, fuzzy
 msgid "Really abandon all changes and exit?"
-msgstr "您要放棄所有變更並離開嗎？"
+msgstr "您真的要放棄所有變更並離開嗎？"
 
 #: YQPkgSelectorBase.cc:265
 msgid ""
@@ -1108,9 +1118,8 @@ msgid ""
 msgstr "除了手動選取的套件外，已變更下列套件以解決相依項："
 
 #: YQPkgSelectorBase.cc:367
-#, fuzzy
 msgid "Not implemented yet"
-msgstr "尚未執行，抱歉。"
+msgstr "尚未實作"
 
 #: YQPkgServiceList.cc:202
 msgid "URL: "
@@ -1133,9 +1142,8 @@ msgid "Install Time:"
 msgstr "安裝時間："
 
 #: YQPkgTechnicalDetailsView.cc:138 YQPkgTechnicalDetailsView.cc:182
-#, fuzzy
 msgid "RPM Group:"
-msgstr "RPM 群組(&R)"
+msgstr "RPM 群組："
 
 #: YQPkgTechnicalDetailsView.cc:140 YQPkgTechnicalDetailsView.cc:184
 msgid "License:"
@@ -1163,7 +1171,7 @@ msgstr "製作套件者："
 
 #: YQPkgTechnicalDetailsView.cc:146 YQPkgTechnicalDetailsView.cc:190
 msgid "Architecture:"
-msgstr "架構︰"
+msgstr "架構："
 
 #: YQPkgTechnicalDetailsView.cc:147 YQPkgTechnicalDetailsView.cc:191
 #: repo-config.ui:128
@@ -1179,23 +1187,20 @@ msgid "Authors:"
 msgstr "原著者："
 
 #: YQPkgVersionsView.cc:242
-#, fuzzy
 msgid "Architecture"
-msgstr "架構︰"
+msgstr "架構"
 
 #: YQPkgVersionsView.cc:243
-#, fuzzy
 msgid "Repository"
-msgstr "儲存庫(&R)"
+msgstr "套件庫"
 
 #: YQPkgVersionsView.cc:289 YQPkgVersionsView.cc:744
 msgid "[RETRACTED]"
-msgstr ""
+msgstr "[已收回]"
 
 #: YQPkgVersionsView.cc:412
-#, fuzzy
 msgid "(installed)"
-msgstr "安裝"
+msgstr "（已安裝）"
 
 #: YQPkgVersionsView.cc:599
 msgid ""
@@ -1260,72 +1265,48 @@ msgid "Repo-Alias  %1 -> %2"
 msgstr ""
 
 #: ZyppHistoryBrowser.cc:504
-#, fuzzy, qt-format
+#, qt-format
 msgid "Patch %1"
-msgstr "修補程式(&P)"
+msgstr "修補程式 %1"
 
 #: ZyppHistoryBrowser.cc:628
 #, qt-format
 msgid "<b>Filter:</b> %1"
-msgstr ""
+msgstr "<b>過濾器：</b> %1"
 
 #: ZyppHistoryBrowser.cc:630
 msgid "<i>No Filter</i>"
-msgstr ""
+msgstr "<i>沒有過濾器</i>"
 
 #: ZyppHistoryFilter.cc:26
 msgid "Only repo events"
-msgstr ""
+msgstr "只有套件庫事件"
 
 #: ZyppHistoryFilter.cc:57
 #, qt-format
 msgid "Package name \"%1\""
-msgstr ""
+msgstr "套件名稱「%1」"
 
 #: ZyppHistoryFilter.cc:80
 #, qt-format
 msgid "Packages from repo \"%1\""
-msgstr ""
+msgstr "套件庫「%1」的套件"
 
 #: ZyppHistoryFilterDialog.cc:155
-#, fuzzy
 msgid "Only package installation / update"
-msgstr "將更新 %1 個套件"
+msgstr "只有套件安裝 / 更新"
 
 #: ZyppHistoryFilterDialog.cc:160
 msgid "Only package removal"
-msgstr ""
-
-# translation of qt-pkg.po to
-# Chinese message file for YaST2 (@memory@). -*- coding: utf-8 -*-
-# Copyright (C) 2002 SuSE Linux AG.
-# Copyright (C) 2001 SuSE GmbH.
-#
-# swyear <swyear@gmail.com>, 2008.
-# Ray Chen <swyear@gmail.com>, 2009, 2010, 2011.
-msgid ""
-msgstr ""
-"Project-Id-Version: qt-pkg\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-30 02:28+0000\n"
-"PO-Revision-Date: 2025-04-08 10:56+0000\n"
-"Last-Translator: Emily Dong <Emily.Dong@excel-gits.com>\n"
-"Language-Team: Chinese (Taiwan) <https://l10n.opensuse.org/projects/yast-qt-"
-"pkg/master/zh_TW/>\n"
-"Language: zh_TW\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10.3\n"
+msgstr "只有套件移除"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"
-msgstr ""
+msgstr "關於 Myrlyn"
 
 #: about-dialog.ui:55
 msgid "## Myrlyn "
-msgstr ""
+msgstr "## Myrlyn "
 
 #: about-dialog.ui:84
 msgid ""
@@ -1359,174 +1340,162 @@ msgid "Form"
 msgstr ""
 
 #: init-repos-page.ui:36
-#, fuzzy
 msgid "Initializing Repositories"
-msgstr "儲存庫(&R)"
+msgstr "正在初始化套件庫"
 
 #: ../aux/myrlyn-askpass.ui:14
 msgid "Myrlyn-Password"
-msgstr ""
+msgstr "Myrlyn-密碼"
 
 #: ../aux/myrlyn-askpass.ui:35
 msgid "### Authentication for Myrlyn"
-msgstr ""
+msgstr "### Myrlyn 認證"
 
 #: ../aux/myrlyn-askpass.ui:84
 msgid "Enter your user password:"
-msgstr ""
+msgstr "輸入您的使用者密碼："
 
 #: ../aux/myrlyn-askpass.ui:94
 msgid "Password"
-msgstr ""
+msgstr "密碼"
 
 #: pkg-commit-page.ui:41
-#, fuzzy
 msgid "Installing / Removing Packages"
-msgstr "安裝推薦的套件(&R)"
+msgstr "安裝 / 移除套件"
 
 #: pkg-commit-page.ui:282
 msgid "Doing"
-msgstr ""
+msgstr "進行中"
 
 #: pkg-commit-page.ui:548
 msgid "Show &Summary Page"
-msgstr ""
+msgstr "顯示摘要頁面(&S)"
 
 #: progress-dialog.ui:14
-#, fuzzy
 msgid "Working..."
-msgstr "搜尋中..."
+msgstr "運作中..."
 
 #: progress-dialog.ui:79 repo-config.ui:378 zypp-history-browser.ui:222
 msgid "&Close"
 msgstr "關閉(&C)"
 
 #: repo-config.ui:14
-#, fuzzy
 msgid "Repository Configuration"
-msgstr "組態(&C)"
+msgstr "套件庫設定"
 
 #: repo-config.ui:41
-#, fuzzy
 msgid "**Repository Configuration**"
-msgstr "組態(&C)"
+msgstr "**套件庫設定**"
 
 #: repo-config.ui:94
 msgid "**PackMan**"
-msgstr ""
+msgstr "**PackMan**"
 
 #: repo-config.ui:154
-#, fuzzy
 msgid "Raw URL:"
-msgstr "URL："
+msgstr "原始網址："
 
 #: repo-config.ui:208
 msgid "&Priority:"
-msgstr ""
+msgstr "優先權(_P)："
 
 #: repo-config.ui:248
 msgid "Ena&bled"
-msgstr ""
+msgstr "啟用(&B)"
 
 #: repo-config.ui:258
 msgid "Auto-Re&fresh"
-msgstr ""
+msgstr "自動重新整理(&F)"
 
 #: repo-config.ui:281
 msgid "1: highest; 200: lowest"
-msgstr ""
+msgstr "1: 最高; 200: 最低"
 
 #: repo-config.ui:334
 msgid "&Add"
-msgstr ""
+msgstr "加入(_A)"
 
 #: repo-config.ui:341
 msgid "&Edit"
-msgstr ""
+msgstr "編輯(_E)"
 
 #: repo-config.ui:348
-#, fuzzy
 msgid "&Delete"
-msgstr "刪除"
+msgstr "刪除(_D)"
 
 #: repo-config.ui:368
 msgid "<i>Restart needed!</i>"
-msgstr ""
+msgstr "<i>需要重新啟動！</i>"
 
 #: repo-edit-add.ui:98
-#, fuzzy
 msgid "Custom &Repository"
-msgstr "儲存庫(&R)"
+msgstr "自訂套件庫(&R)"
 
 #: repo-edit-add.ui:108
 msgid "Co&mmunity Repository"
-msgstr ""
+msgstr "社群套件庫"
 
 #: repo-edit-add.ui:254 search-filter-view.ui:87
 msgid "&Name"
 msgstr "名稱(&N)"
 
 #: repo-edit-add.ui:270
-#, fuzzy
 msgid "Repository Name"
-msgstr "儲存庫(&R)"
+msgstr "套件庫名稱"
 
 #: repo-edit-add.ui:302
 msgid "Raw &URL"
-msgstr ""
+msgstr "原始網址"
 
 #: repo-gpg-key-import-dialog.ui:14
 msgid "GPG Key"
-msgstr ""
+msgstr "GPG 金鑰"
 
 #: repo-gpg-key-import-dialog.ui:41
 msgid "## Import Untrusted GPG Key"
-msgstr ""
+msgstr "## 匯入未受信任的 GPG 金鑰"
 
 #: repo-gpg-key-import-dialog.ui:81
-#, fuzzy
 msgid "_Repository:_"
-msgstr "軟體庫："
+msgstr "_套件庫：_"
 
 #: repo-gpg-key-import-dialog.ui:101
-#, fuzzy
 msgid "_URL:_"
-msgstr "URL："
+msgstr "_網址：_"
 
 #: repo-gpg-key-import-dialog.ui:121
 msgid "_Fingerprint:_"
-msgstr ""
+msgstr "_指紋：_"
 
 #: repo-gpg-key-import-dialog.ui:141
 msgid "_Key Name:_"
-msgstr ""
+msgstr "_金鑰名稱：_"
 
 #: repo-gpg-key-import-dialog.ui:161
 msgid "_Key Algorithm:_"
-msgstr ""
+msgstr "_金鑰演算法：_"
 
 #: repo-gpg-key-import-dialog.ui:181
 msgid "_Key ID:_"
-msgstr ""
+msgstr "_金鑰 ID:_"
 
 #: repo-gpg-key-import-dialog.ui:201
 msgid "_Created:_"
-msgstr ""
+msgstr "_建立於：_"
 
 #: repo-gpg-key-import-dialog.ui:221
 msgid "_Expires:_"
-msgstr ""
+msgstr "_過期日期：_"
 
 #: repo-gpg-key-import-dialog.ui:274
 msgid "&Trust"
-msgstr ""
+msgstr "信任(&T)"
 
 #: search-filter-view.ui:43
 msgid "Search Text or Pattern"
-msgstr ""
+msgstr "搜尋文字或樣式"
 
 #: search-filter-view.ui:78
-#, fuzzy
 msgid "Search In"
 msgstr "搜尋範圍"
 
@@ -1539,34 +1508,29 @@ msgid "D&escription"
 msgstr "描述(&E)"
 
 #: search-filter-view.ui:127
-#, fuzzy
 msgid "RPM P&rovides"
-msgstr "RPM \"提供\"(&R)"
+msgstr "RPM 提供(&R)"
 
 #: search-filter-view.ui:134
-#, fuzzy
 msgid "RPM Re&quires"
-msgstr "RPM \"需要\"(&Q)"
+msgstr "RPM 需要(&Q)"
 
 #: search-filter-view.ui:141
-#, fuzzy
 msgid "RPM Recommends"
-msgstr "推薦："
+msgstr "RPM 推薦"
 
 #: search-filter-view.ui:164
-#, fuzzy
 msgid "File &List"
-msgstr "檔案清單"
+msgstr "檔案清單(&L)"
 
 #: search-filter-view.ui:198
-#, fuzzy
 msgid "Searc&h Mode:"
-msgstr "搜尋模式(&M)："
+msgstr "搜尋模式(&H)："
 
 #: search-filter-view.ui:209 zypp-history-filter-dialog.ui:93
 #: zypp-history-filter-dialog.ui:184
 msgid "Auto"
-msgstr ""
+msgstr "自動"
 
 #: search-filter-view.ui:214 zypp-history-filter-dialog.ui:98
 #: zypp-history-filter-dialog.ui:189
@@ -1576,7 +1540,7 @@ msgstr "包含"
 #: search-filter-view.ui:219 zypp-history-filter-dialog.ui:103
 #: zypp-history-filter-dialog.ui:194
 msgid "Starts With"
-msgstr ""
+msgstr "開頭"
 
 #: search-filter-view.ui:224 zypp-history-filter-dialog.ui:108
 #: zypp-history-filter-dialog.ui:199
@@ -1585,20 +1549,17 @@ msgstr "完全符合"
 
 #: search-filter-view.ui:229 zypp-history-filter-dialog.ui:113
 #: zypp-history-filter-dialog.ui:204
-#, fuzzy
 msgid "Wildcards"
-msgstr "使用萬用字元"
+msgstr "萬用字元"
 
 #: search-filter-view.ui:234 zypp-history-filter-dialog.ui:118
 #: zypp-history-filter-dialog.ui:209
-#, fuzzy
 msgid "Regular Expression"
-msgstr "使用規則運算式"
+msgstr "正規表示式"
 
 #: search-filter-view.ui:244
-#, fuzzy
 msgid "Detected:"
-msgstr "受保護"
+msgstr "偵測到："
 
 #: search-filter-view.ui:267
 msgid "Switch default mode for \"auto\""
@@ -1606,25 +1567,21 @@ msgstr ""
 
 #: search-filter-view.ui:270 summary-page.ui:135
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: search-filter-view.ui:295
-#, fuzzy
 msgid "Case Sens&itive"
-msgstr "區分大小寫(&V)"
+msgstr "區分大小寫(&I)"
 
 #: status-filter-view.ui:32
-#, fuzzy
 msgid "Show Packages with Status"
 msgstr "顯示套件及其狀態"
 
 #: status-filter-view.ui:103
-#, fuzzy
 msgid "Auto-Install"
 msgstr "自動安裝"
 
 #: status-filter-view.ui:123
-#, fuzzy
 msgid "Auto-Update"
 msgstr "自動更新"
 
@@ -1637,7 +1594,6 @@ msgid "Protected"
 msgstr "受保護"
 
 #: status-filter-view.ui:279
-#, fuzzy
 msgid "Auto-Delete"
 msgstr "自動刪除"
 
@@ -1647,31 +1603,29 @@ msgstr ""
 
 #: status-filter-view.ui:354
 msgid "Defaults"
-msgstr ""
+msgstr "預設值"
 
 #: status-filter-view.ui:361 updates-filter-view.ui:242
-#, fuzzy
 msgid "Refresh List"
-msgstr "重新整理清單(&R)"
+msgstr "重新整理清單"
 
 #: summary-page.ui:95
 msgid "Automatically closing in"
-msgstr ""
+msgstr "自動關閉"
 
 #: summary-page.ui:125
 msgid "&Stop"
-msgstr ""
+msgstr "停止(&S)"
 
 #: summary-page.ui:175
 msgid "&Back"
-msgstr ""
+msgstr "返回(&B)"
 
 #: summary-page.ui:182
 msgid "&Finish"
-msgstr ""
+msgstr "完成(&F)"
 
 #: updates-filter-view.ui:35
-#, fuzzy
 msgid "Updates"
 msgstr "更新"
 
@@ -1679,12 +1633,11 @@ msgstr "更新"
 msgid ""
 "This shows only packages that could be updated, i.e. where a newer version "
 "is available than the version that is already installed."
-msgstr ""
+msgstr "這只會顯示可以更新的套件，也就是有比已安裝的版本更新的版本可用。"
 
 #: updates-filter-view.ui:98
-#, fuzzy
 msgid "Pac&kage Update"
-msgstr "套件"
+msgstr "套件更新(&K)"
 
 #: updates-filter-view.ui:120
 msgid ""
@@ -1696,7 +1649,7 @@ msgstr ""
 
 #: updates-filter-view.ui:172
 msgid "D&ist-Upgrade"
-msgstr ""
+msgstr "發行版本升級(&I)"
 
 #: updates-filter-view.ui:194
 msgid ""
@@ -1710,84 +1663,76 @@ msgid ""
 msgstr ""
 
 #: zypp-history-browser.ui:14
-#, fuzzy
 msgid "Zypp History"
-msgstr "顯示歷史記錄(&H)"
+msgstr "Zypp 歷史記錄"
 
 #: zypp-history-browser.ui:66
 msgid "**Zypp History**"
-msgstr ""
+msgstr "**Zypp 歷史記錄**"
 
 #: zypp-history-browser.ui:92
 msgid "No Filter"
-msgstr ""
+msgstr "沒有過濾器"
 
 #: zypp-history-browser.ui:108
-#, fuzzy
 msgid "Cl&ear Filter"
-msgstr "次要過濾器(&S)︰"
+msgstr "清除過濾器(&E)"
 
 #: zypp-history-browser.ui:115
-#, fuzzy
 msgid "&Filter..."
-msgstr "檔案(&F)"
+msgstr "過濾器(&F)..."
 
 #: zypp-history-browser.ui:144
-#, fuzzy
 msgid "Navigation"
-msgstr "當地化"
+msgstr "導覽"
 
 #: zypp-history-browser.ui:167
 msgid "Arch."
-msgstr ""
+msgstr "架構"
 
 #: zypp-history-browser.ui:172
 msgid "Repo"
-msgstr ""
+msgstr "套件庫"
 
 #: zypp-history-browser.ui:199
 msgid "Sho&w (+/-) Count"
-msgstr ""
+msgstr "顯示 (+/-) 計數(&W)"
 
 #: zypp-history-filter-dialog.ui:14
 msgid "Zypp History Filter"
-msgstr ""
+msgstr "Zypp 歷史記錄過濾器"
 
 #: zypp-history-filter-dialog.ui:38
 msgid "**Zypp History Filter**"
-msgstr ""
+msgstr "**Zypp 歷史記錄過濾器**"
 
 #: zypp-history-filter-dialog.ui:51
-#, fuzzy
 msgid "Package by &Name"
-msgstr "套件"
+msgstr "依名稱過濾套件(&N)"
 
 #: zypp-history-filter-dialog.ui:76
 msgid "Package Name or Pattern"
-msgstr ""
+msgstr "套件名稱或樣式"
 
 #: zypp-history-filter-dialog.ui:142
-#, fuzzy
 msgid "Package by &Repository"
-msgstr "套件歷程"
+msgstr "依套件庫過濾套件(&R)"
 
 #: zypp-history-filter-dialog.ui:167
 msgid "Repo Alias or Pattern"
-msgstr ""
+msgstr "套件庫別名或樣式"
 
 #: zypp-history-filter-dialog.ui:233
-#, fuzzy
 msgid "Package &Install / Update"
-msgstr "將更新 %1 個套件"
+msgstr "套件安裝 / 更新(&I)"
 
 #: zypp-history-filter-dialog.ui:240
-#, fuzzy
 msgid "Package Re&move"
-msgstr "套件群組(&G)"
+msgstr "套件移除(&R)"
 
 #: zypp-history-filter-dialog.ui:247
 msgid "Repository &Add / Remove / Change URL / Change Alias"
-msgstr ""
+msgstr "套件庫加入 / 移除 / 變更網址 / 變更別名(&A)"
 
 #~ msgid "&Update Problems"
 #~ msgstr "更新問題(&U)"
