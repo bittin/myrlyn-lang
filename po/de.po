@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-11-02 01:09+0000\n"
+"PO-Revision-Date: 2026-11-03 09:27+0000\n"
 "Last-Translator: byDMA <byDMApl@yandex.com>\n"
 "Language-Team: German <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/de/>\n"
@@ -1391,7 +1391,7 @@ msgstr "Soeben in Bearbeitung"
 
 #: pkg-commit-page.ui:548
 msgid "Show &Summary Page"
-msgstr "Über&sichtsseite"
+msgstr "Über&sichtsseite anzeigen"
 
 #: progress-dialog.ui:14
 msgid "Working..."
