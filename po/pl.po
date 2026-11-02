@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: qt-pkg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-30 02:28+0000\n"
-"PO-Revision-Date: 2026-11-02 01:09+0000\n"
+"PO-Revision-Date: 2026-11-03 09:27+0000\n"
 "Last-Translator: byDMA <byDMApl@yandex.com>\n"
 "Language-Team: Polish <https://translate.codeberg.org/projects/myrlyn-lang/"
 "myrlyn-lang/pl/>\n"
@@ -566,7 +566,7 @@ msgstr "Pakiet"
 #: YQPkgList.cc:49 YQPkgPatchList.cc:49 YQPkgProductList.cc:36
 #: summary-page.ui:36
 msgid "Summary"
-msgstr "Pokaż podsumowanie"
+msgstr "Podsumowanie"
 
 #: YQPkgList.cc:54
 msgid "Installed (Available)"
