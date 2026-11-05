@@ -333,7 +333,7 @@ msgstr ""
 msgid "&Save This List to a File..."
 msgstr ""
 
-#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:644 YQPkgSelector.cc:1277
+#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:644 YQPkgSelector.cc:1285
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
 #: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
@@ -359,7 +359,7 @@ msgid ""
 "dependency resolver. The logs will be stored in directory <br><tt>%1</tt></p>"
 msgstr ""
 
-#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1276 YQPkgSelector.cc:1328
+#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1284 YQPkgSelector.cc:1336
 #: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:627
 msgid "C&ontinue"
 msgstr ""
@@ -452,8 +452,8 @@ msgid "Package Description"
 msgstr ""
 
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1552
-#: YQPkgSelector.cc:1722 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1560
+#: YQPkgSelector.cc:1730 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
 #: ../aux/myrlyn-askpass.ui:188 repo-edit-add.ui:369
 #: zypp-history-filter-dialog.ui:298
 msgid "&OK"
@@ -713,21 +713,21 @@ msgstr ""
 msgid "zzz Unspecified (%1)"
 msgstr ""
 
-#: YQPkgSearchFilterView.cc:160
+#: YQPkgSearchFilterView.cc:161
 #, qt-format
 msgid "Default: %1"
 msgstr ""
 
-#: YQPkgSearchFilterView.cc:167
+#: YQPkgSearchFilterView.cc:168
 #, qt-format
 msgid "Detected: %1"
 msgstr ""
 
-#: YQPkgSearchFilterView.cc:443
+#: YQPkgSearchFilterView.cc:444
 msgid "No Results."
 msgstr ""
 
-#: YQPkgSearchFilterView.cc:458
+#: YQPkgSearchFilterView.cc:459
 msgid "Query Error"
 msgstr ""
 
@@ -755,11 +755,11 @@ msgstr ""
 msgid "&Search"
 msgstr ""
 
-#: YQPkgSelector.cc:326 YQPkgSelector.cc:1293
+#: YQPkgSelector.cc:326 YQPkgSelector.cc:1301
 msgid "Patc&hes"
 msgstr ""
 
-#: YQPkgSelector.cc:338 YQPkgSelector.cc:1294
+#: YQPkgSelector.cc:338 YQPkgSelector.cc:1302
 msgid "&Updates"
 msgstr ""
 
@@ -927,39 +927,59 @@ msgstr ""
 msgid "H&elp"
 msgstr ""
 
-#: YQPkgSelector.cc:907
-msgid "&Overview"
-msgstr ""
-
-#: YQPkgSelector.cc:909
+#: YQPkgSelector.cc:906
 msgid "About &Myrlyn"
 msgstr ""
 
-#: YQPkgSelector.cc:910
+#: YQPkgSelector.cc:907
 msgid "About &Qt"
 msgstr ""
 
-#: YQPkgSelector.cc:915
-msgid "Rep&ository Configuration"
+#: YQPkgSelector.cc:911
+msgid "Myrlyn Home &Page"
 msgstr ""
 
-#: YQPkgSelector.cc:916
-msgid "Root &Authentication"
+#: YQPkgSelector.cc:913
+msgid "&Help Center"
+msgstr ""
+
+#: YQPkgSelector.cc:915
+msgid "Customization FAQs"
 msgstr ""
 
 #: YQPkgSelector.cc:917
-msgid "&Development Status"
+msgid "Font Si&ze"
 msgstr ""
 
 #: YQPkgSelector.cc:918
+msgid "&GUI Scaling (HiDPI)"
+msgstr ""
+
+#: YQPkgSelector.cc:919
+msgid "&Dark Theme"
+msgstr ""
+
+#: YQPkgSelector.cc:921
+msgid "Root &Authentication"
+msgstr ""
+
+#: YQPkgSelector.cc:922
+msgid "Rep&ository Configuration"
+msgstr ""
+
+#: YQPkgSelector.cc:925
+msgid "&Development Status"
+msgstr ""
+
+#: YQPkgSelector.cc:926
 msgid "&Latest Release"
 msgstr ""
 
-#: YQPkgSelector.cc:1160
+#: YQPkgSelector.cc:1168
 msgid "All package dependencies are OK."
 msgstr ""
 
-#: YQPkgSelector.cc:1268
+#: YQPkgSelector.cc:1276
 msgid ""
 "There are pending changes.\n"
 "\n"
@@ -969,34 +989,34 @@ msgid ""
 "will be lost.\n"
 msgstr ""
 
-#: YQPkgSelector.cc:1326
+#: YQPkgSelector.cc:1334
 #, qt-format
 msgid "%1 packages will be updated"
 msgstr ""
 
-#: YQPkgSelector.cc:1356
+#: YQPkgSelector.cc:1364
 msgid "Dist-Upgrade Mode"
 msgstr ""
 
-#: YQPkgSelector.cc:1357
+#: YQPkgSelector.cc:1365
 msgid "Package Update Mode"
 msgstr ""
 
-#: YQPkgSelector.cc:1395
+#: YQPkgSelector.cc:1403
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
 "versions in this repository (%2)</p>"
 msgstr ""
 
-#: YQPkgSelector.cc:1420
+#: YQPkgSelector.cc:1428
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
 "to versions in repository %2</p>"
 msgstr ""
 
-#: YQPkgSelector.cc:1496
+#: YQPkgSelector.cc:1504
 #, qt-format
 msgid ""
 "Can't open zypp history file\n"
@@ -1005,7 +1025,7 @@ msgid ""
 "No permissions?"
 msgstr ""
 
-#: YQPkgSelector.cc:1508
+#: YQPkgSelector.cc:1516
 #, qt-format
 msgid ""
 "Parse error in zypp history file\n"
@@ -1014,7 +1034,7 @@ msgid ""
 "Check the log!"
 msgstr ""
 
-#: YQPkgSelector.cc:1551 YQPkgSelector.cc:1720
+#: YQPkgSelector.cc:1559 YQPkgSelector.cc:1728
 msgid "Added Subpackages:"
 msgstr ""
 

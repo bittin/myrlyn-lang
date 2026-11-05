@@ -354,7 +354,7 @@ msgstr "進階(&E)"
 msgid "&Save This List to a File..."
 msgstr "儲存此清單到檔案(&S)..."
 
-#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:644 YQPkgSelector.cc:1277
+#: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:644 YQPkgSelector.cc:1285
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
 #: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
@@ -382,7 +382,7 @@ msgstr ""
 "<p>使用此功能產生大量記錄以協助追蹤相依性解析程式中的錯誤。記錄會存放在目錄 "
 "<br><tt>%1</tt> 中</p>"
 
-#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1276 YQPkgSelector.cc:1328
+#: YQPkgConflictDialog.cc:337 YQPkgSelector.cc:1284 YQPkgSelector.cc:1336
 #: YQPkgSelectorBase.cc:271 YQPkgVersionsView.cc:627
 msgid "C&ontinue"
 msgstr "繼續(&O)"
@@ -477,8 +477,8 @@ msgid "Package Description"
 msgstr "套件描述"
 
 #: YQPkgDescriptionDialog.cc:93 YQPkgDiskUsageList.cc:124
-#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1552
-#: YQPkgSelector.cc:1722 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
+#: YQPkgDiskUsageList.cc:133 YQPkgProductDialog.cc:99 YQPkgSelector.cc:1560
+#: YQPkgSelector.cc:1730 YQPkgSelectorBase.cc:166 YQPkgTextDialog.cc:43
 #: ../aux/myrlyn-askpass.ui:188 repo-edit-add.ui:369
 #: zypp-history-filter-dialog.ui:298
 msgid "&OK"
@@ -738,21 +738,21 @@ msgstr "RPM 群組"
 msgid "zzz Unspecified (%1)"
 msgstr "zzz 未指定 (%1)"
 
-#: YQPkgSearchFilterView.cc:160
+#: YQPkgSearchFilterView.cc:161
 #, qt-format
 msgid "Default: %1"
 msgstr "預設：%1"
 
-#: YQPkgSearchFilterView.cc:167
+#: YQPkgSearchFilterView.cc:168
 #, qt-format
 msgid "Detected: %1"
 msgstr "偵測到：%1"
 
-#: YQPkgSearchFilterView.cc:443
+#: YQPkgSearchFilterView.cc:444
 msgid "No Results."
 msgstr "沒有結果。"
 
-#: YQPkgSearchFilterView.cc:458
+#: YQPkgSearchFilterView.cc:459
 msgid "Query Error"
 msgstr "查詢錯誤"
 
@@ -780,11 +780,11 @@ msgstr "狀態"
 msgid "&Search"
 msgstr "搜尋(&S)"
 
-#: YQPkgSelector.cc:326 YQPkgSelector.cc:1293
+#: YQPkgSelector.cc:326 YQPkgSelector.cc:1301
 msgid "Patc&hes"
 msgstr "修補程式(&H)"
 
-#: YQPkgSelector.cc:338 YQPkgSelector.cc:1294
+#: YQPkgSelector.cc:338 YQPkgSelector.cc:1302
 msgid "&Updates"
 msgstr "更新(&U)"
 
@@ -952,39 +952,59 @@ msgstr "產生相依性解析程式測試個案(&T)"
 msgid "H&elp"
 msgstr "說明(&E)"
 
-#: YQPkgSelector.cc:907
-msgid "&Overview"
-msgstr "綜覽(&O)"
-
-#: YQPkgSelector.cc:909
+#: YQPkgSelector.cc:906
 msgid "About &Myrlyn"
 msgstr "關於 &Myrlyn"
 
-#: YQPkgSelector.cc:910
+#: YQPkgSelector.cc:907
 msgid "About &Qt"
 msgstr "關於 &Qt"
 
-#: YQPkgSelector.cc:915
-msgid "Rep&ository Configuration"
-msgstr "套件庫設定(&O)"
+#: YQPkgSelector.cc:911
+msgid "Myrlyn Home &Page"
+msgstr ""
 
-#: YQPkgSelector.cc:916
+#: YQPkgSelector.cc:913
+msgid "&Help Center"
+msgstr ""
+
+#: YQPkgSelector.cc:915
+msgid "Customization FAQs"
+msgstr ""
+
+#: YQPkgSelector.cc:917
+msgid "Font Si&ze"
+msgstr ""
+
+#: YQPkgSelector.cc:918
+msgid "&GUI Scaling (HiDPI)"
+msgstr ""
+
+#: YQPkgSelector.cc:919
+msgid "&Dark Theme"
+msgstr ""
+
+#: YQPkgSelector.cc:921
 msgid "Root &Authentication"
 msgstr "Root 認證(&A)"
 
-#: YQPkgSelector.cc:917
+#: YQPkgSelector.cc:922
+msgid "Rep&ository Configuration"
+msgstr "套件庫設定(&O)"
+
+#: YQPkgSelector.cc:925
 msgid "&Development Status"
 msgstr "開發狀態(&D)"
 
-#: YQPkgSelector.cc:918
+#: YQPkgSelector.cc:926
 msgid "&Latest Release"
 msgstr "最新發行版本(&L)"
 
-#: YQPkgSelector.cc:1160
+#: YQPkgSelector.cc:1168
 msgid "All package dependencies are OK."
 msgstr "所有的套件相依項均沒有問題。"
 
-#: YQPkgSelector.cc:1268
+#: YQPkgSelector.cc:1276
 msgid ""
 "There are pending changes.\n"
 "\n"
@@ -1000,20 +1020,20 @@ msgstr ""
 "重新啟動程式，而所有套件\n"
 "變更將會遺失。\n"
 
-#: YQPkgSelector.cc:1326
+#: YQPkgSelector.cc:1334
 #, qt-format
 msgid "%1 packages will be updated"
 msgstr "將更新 %1 個套件"
 
-#: YQPkgSelector.cc:1356
+#: YQPkgSelector.cc:1364
 msgid "Dist-Upgrade Mode"
 msgstr "發行版本升級模式"
 
-#: YQPkgSelector.cc:1357
+#: YQPkgSelector.cc:1365
 msgid "Package Update Mode"
 msgstr "套件更新模式"
 
-#: YQPkgSelector.cc:1395
+#: YQPkgSelector.cc:1403
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgradeadd:///%1\">Switch system packages</a> to the "
@@ -1022,7 +1042,7 @@ msgstr ""
 "<p><a href=\"repoupgradeadd:///%1\">將系統套件切換</a>至此套件庫 (%2) 中的版"
 "本</p>"
 
-#: YQPkgSelector.cc:1420
+#: YQPkgSelector.cc:1428
 #, qt-format
 msgid ""
 "<p><a href=\"repoupgraderemove:///%1\">Cancel switching</a> system packages "
@@ -1031,7 +1051,7 @@ msgstr ""
 "<p><a href=\"repoupgraderemove:///%1\">取消</a>將系統套件切換至套件庫 %2 中的"
 "版本</p>"
 
-#: YQPkgSelector.cc:1496
+#: YQPkgSelector.cc:1504
 #, qt-format
 msgid ""
 "Can't open zypp history file\n"
@@ -1044,7 +1064,7 @@ msgstr ""
 "\n"
 "沒有權限？"
 
-#: YQPkgSelector.cc:1508
+#: YQPkgSelector.cc:1516
 #, qt-format
 msgid ""
 "Parse error in zypp history file\n"
@@ -1053,7 +1073,7 @@ msgid ""
 "Check the log!"
 msgstr ""
 
-#: YQPkgSelector.cc:1551 YQPkgSelector.cc:1720
+#: YQPkgSelector.cc:1559 YQPkgSelector.cc:1728
 msgid "Added Subpackages:"
 msgstr "新增的子套件："
 
@@ -1733,6 +1753,9 @@ msgstr "套件移除(&R)"
 #: zypp-history-filter-dialog.ui:247
 msgid "Repository &Add / Remove / Change URL / Change Alias"
 msgstr "套件庫加入 / 移除 / 變更網址 / 變更別名(&A)"
+
+#~ msgid "&Overview"
+#~ msgstr "綜覽(&O)"
 
 #~ msgid "&Update Problems"
 #~ msgstr "更新問題(&U)"
