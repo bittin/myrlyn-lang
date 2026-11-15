@@ -1,18 +1,38 @@
-#: MyrlynApp.cc:209
+#: MyrlynApp.cc:211
 msgid " [root]"
 msgstr " [root]"
 
-#: MyrlynApp.cc:212 RepoConfigDialog.cc:64
+#: MyrlynApp.cc:214 RepoConfigDialog.cc:64
 msgid " (read-only)"
 msgstr " （唯讀）"
 
-#: MyrlynApp.cc:233
+#: MyrlynApp.cc:235
 msgid "Preparing the package selector..."
 msgstr "正在準備套件選擇器..."
 
-#: MyrlynApp.cc:491
+#: MyrlynApp.cc:493
 msgid "Really quit?"
 msgstr "確定要退出嗎？"
+
+#: MyrlynApp.cc:513
+msgid ""
+"Can't connect to the package manager!\n"
+"It may be busy in another window.\n"
+msgstr ""
+"無法連線到套件管理員！\n"
+"可能在另一個視窗正忙。\n"
+
+#: MyrlynApp.cc:521
+#, qt-format
+msgid ""
+"Locking process:\n"
+"PID %1   %2"
+msgstr ""
+
+#: MyrlynApp.cc:530 MyrlynRepoManager.cc:302 YQPkgConflictDialog.cc:363
+#: YQPkgConflictList.cc:160
+msgid "Error"
+msgstr "錯誤"
 
 #: MyrlynRepoManager.cc:296
 msgid ""
@@ -27,11 +47,6 @@ msgstr ""
 "    sudo zypper refresh\n"
 "\n"
 "然後重新啟動程式。"
-
-#: MyrlynRepoManager.cc:302 MyrlynWorkflowSteps.cc:172
-#: YQPkgConflictDialog.cc:363 YQPkgConflictList.cc:160
-msgid "Error"
-msgstr "錯誤"
 
 #: MyrlynRepoManager.cc:318
 #, qt-format
@@ -60,14 +75,6 @@ msgstr ""
 #: MyrlynRepoManager.cc:337 YQPkgConflictDialog.cc:63
 msgid "Warning"
 msgstr "警告"
-
-#: MyrlynWorkflowSteps.cc:168
-msgid ""
-"Can't connect to the package manager!\n"
-"It may be busy in another window.\n"
-msgstr ""
-"無法連線到套件管理員！\n"
-"可能在另一個視窗正忙。\n"
 
 #: PkgCommitPage.cc:145 pkg-commit-page.ui:113
 msgid "To Do"

@@ -1,18 +1,38 @@
-#: MyrlynApp.cc:209
+#: MyrlynApp.cc:211
 msgid " [root]"
 msgstr " [root]"
 
-#: MyrlynApp.cc:212 RepoConfigDialog.cc:64
+#: MyrlynApp.cc:214 RepoConfigDialog.cc:64
 msgid " (read-only)"
 msgstr " (do przeglądania)"
 
-#: MyrlynApp.cc:233
+#: MyrlynApp.cc:235
 msgid "Preparing the package selector..."
 msgstr "Trwa przygotowywanie pakietów..."
 
-#: MyrlynApp.cc:491
+#: MyrlynApp.cc:493
 msgid "Really quit?"
 msgstr "Czy zamknąć program?"
+
+#: MyrlynApp.cc:513
+msgid ""
+"Can't connect to the package manager!\n"
+"It may be busy in another window.\n"
+msgstr ""
+"Nie można uruchomić menadżera pakietów!\n"
+"Prawdopodobnie już jest otwarty w innym oknie.\n"
+
+#: MyrlynApp.cc:521
+#, qt-format
+msgid ""
+"Locking process:\n"
+"PID %1   %2"
+msgstr ""
+
+#: MyrlynApp.cc:530 MyrlynRepoManager.cc:302 YQPkgConflictDialog.cc:363
+#: YQPkgConflictList.cc:160
+msgid "Error"
+msgstr "Błąd"
 
 #: MyrlynRepoManager.cc:296
 msgid ""
@@ -28,11 +48,6 @@ msgstr ""
 "     sudo zypper refresh\n"
 "\n"
 "i zrestartuj program."
-
-#: MyrlynRepoManager.cc:302 MyrlynWorkflowSteps.cc:172
-#: YQPkgConflictDialog.cc:363 YQPkgConflictList.cc:160
-msgid "Error"
-msgstr "Błąd"
 
 #: MyrlynRepoManager.cc:318
 #, qt-format
@@ -61,14 +76,6 @@ msgstr ""
 #: MyrlynRepoManager.cc:337 YQPkgConflictDialog.cc:63
 msgid "Warning"
 msgstr "Ostrzeżenie"
-
-#: MyrlynWorkflowSteps.cc:168
-msgid ""
-"Can't connect to the package manager!\n"
-"It may be busy in another window.\n"
-msgstr ""
-"Nie można uruchomić menadżera pakietów!\n"
-"Prawdopodobnie już jest otwarty w innym oknie.\n"
 
 #: PkgCommitPage.cc:145 pkg-commit-page.ui:113
 msgid "To Do"

@@ -1,35 +1,38 @@
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-11-14 13:27+0000\n"
-"Last-Translator: javierllorente <javierllorente@noreply.codeberg.org>\n"
-"Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
-"X-Qt-Contexts: true\n"
-
-#: MyrlynApp.cc:209
+#: MyrlynApp.cc:211
 msgid " [root]"
 msgstr " [root]"
 
-#: MyrlynApp.cc:212 RepoConfigDialog.cc:64
+#: MyrlynApp.cc:214 RepoConfigDialog.cc:64
 msgid " (read-only)"
 msgstr " (sólo lectura)"
 
-#: MyrlynApp.cc:233
+#: MyrlynApp.cc:235
 msgid "Preparing the package selector..."
 msgstr "Preparando el selector de paquetes..."
 
-#: MyrlynApp.cc:491
+#: MyrlynApp.cc:493
 msgid "Really quit?"
 msgstr "¿Cerrar aplicación?"
+
+#: MyrlynApp.cc:513
+msgid ""
+"Can't connect to the package manager!\n"
+"It may be busy in another window.\n"
+msgstr ""
+"¡Error de conexión con el gestor de paquetes!\n"
+"Puede que esté activo en otra ventana.\n"
+
+#: MyrlynApp.cc:521
+#, qt-format
+msgid ""
+"Locking process:\n"
+"PID %1   %2"
+msgstr ""
+
+#: MyrlynApp.cc:530 MyrlynRepoManager.cc:302 YQPkgConflictDialog.cc:363
+#: YQPkgConflictList.cc:160
+msgid "Error"
+msgstr "Error"
 
 #: MyrlynRepoManager.cc:296
 msgid ""
@@ -44,11 +47,6 @@ msgstr ""
 "\tsudo zypper refresh\n"
 "\n"
 "y reinicie el programa."
-
-#: MyrlynRepoManager.cc:302 MyrlynWorkflowSteps.cc:172
-#: YQPkgConflictDialog.cc:363 YQPkgConflictList.cc:160
-msgid "Error"
-msgstr "Error"
 
 #: MyrlynRepoManager.cc:318
 #, qt-format
@@ -77,14 +75,6 @@ msgstr ""
 #: MyrlynRepoManager.cc:337 YQPkgConflictDialog.cc:63
 msgid "Warning"
 msgstr "Advertencia"
-
-#: MyrlynWorkflowSteps.cc:168
-msgid ""
-"Can't connect to the package manager!\n"
-"It may be busy in another window.\n"
-msgstr ""
-"¡Error de conexión con el gestor de paquetes!\n"
-"Puede que esté activo en otra ventana.\n"
 
 #: PkgCommitPage.cc:145 pkg-commit-page.ui:113
 msgid "To Do"
@@ -1359,6 +1349,23 @@ msgstr "Solo instalar / actualizar paquetes"
 #: ZyppHistoryFilterDialog.cc:160
 msgid "Only package removal"
 msgstr "Solo eliminar paquetes"
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-11 02:29+0000\n"
+"PO-Revision-Date: 2026-11-14 13:27+0000\n"
+"Last-Translator: javierllorente <javierllorente@noreply.codeberg.org>\n"
+"Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
+"X-Qt-Contexts: true\n"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"
