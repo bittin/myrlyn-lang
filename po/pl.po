@@ -525,15 +525,15 @@ msgstr "Razem plików: %1"
 msgid "&View"
 msgstr "&Widok"
 
-#: YQPkgFilterTab.cc:233
+#: YQPkgFilterTab.cc:234
 msgid "Move page &left"
 msgstr "Przesuń stronę w &lewo"
 
-#: YQPkgFilterTab.cc:241
+#: YQPkgFilterTab.cc:242
 msgid "Move page &right"
 msgstr "Przesuń stronę w &prawo"
 
-#: YQPkgFilterTab.cc:249
+#: YQPkgFilterTab.cc:250
 msgid "&Close page"
 msgstr "&Zamknij stronę"
 

@@ -522,15 +522,15 @@ msgstr "合計 %1 個のファイル"
 msgid "&View"
 msgstr "表示 (&V)"
 
-#: YQPkgFilterTab.cc:233
+#: YQPkgFilterTab.cc:234
 msgid "Move page &left"
 msgstr "ページを左に移動 (&L)"
 
-#: YQPkgFilterTab.cc:241
+#: YQPkgFilterTab.cc:242
 msgid "Move page &right"
 msgstr "ページを右に移動 (&L)"
 
-#: YQPkgFilterTab.cc:249
+#: YQPkgFilterTab.cc:250
 msgid "&Close page"
 msgstr "ページを閉じる (&C)"
 

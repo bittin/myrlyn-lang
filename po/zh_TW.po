@@ -520,15 +520,15 @@ msgstr "全部 %1 個檔案"
 msgid "&View"
 msgstr "檢視(&V)"
 
-#: YQPkgFilterTab.cc:233
+#: YQPkgFilterTab.cc:234
 msgid "Move page &left"
 msgstr "將頁面向左移(&L)"
 
-#: YQPkgFilterTab.cc:241
+#: YQPkgFilterTab.cc:242
 msgid "Move page &right"
 msgstr "將頁面向右移(&R)"
 
-#: YQPkgFilterTab.cc:249
+#: YQPkgFilterTab.cc:250
 msgid "&Close page"
 msgstr "關閉頁面(&C)"
 

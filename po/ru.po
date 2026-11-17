@@ -519,15 +519,15 @@ msgstr "Всего файлов: %1"
 msgid "&View"
 msgstr "&Просмотр"
 
-#: YQPkgFilterTab.cc:233
+#: YQPkgFilterTab.cc:234
 msgid "Move page &left"
 msgstr "Переместить страницу в&лево"
 
-#: YQPkgFilterTab.cc:241
+#: YQPkgFilterTab.cc:242
 msgid "Move page &right"
 msgstr "Переместить страницу в&право"
 
-#: YQPkgFilterTab.cc:249
+#: YQPkgFilterTab.cc:250
 msgid "&Close page"
 msgstr "&Закрыть страницу"
 

@@ -529,15 +529,15 @@ msgstr "%1 fichiers au total"
 msgid "&View"
 msgstr "&Voir"
 
-#: YQPkgFilterTab.cc:233
+#: YQPkgFilterTab.cc:234
 msgid "Move page &left"
 msgstr "Déplacer la page vers la &gauche"
 
-#: YQPkgFilterTab.cc:241
+#: YQPkgFilterTab.cc:242
 msgid "Move page &right"
 msgstr "Déplacer la page vers la &droite"
 
-#: YQPkgFilterTab.cc:249
+#: YQPkgFilterTab.cc:250
 msgid "&Close page"
 msgstr "&Fermer la page"
 

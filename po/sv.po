@@ -521,15 +521,15 @@ msgstr "%1 filer totalt"
 msgid "&View"
 msgstr "&Visa"
 
-#: YQPkgFilterTab.cc:233
+#: YQPkgFilterTab.cc:234
 msgid "Move page &left"
 msgstr "Flytta sida &vänster"
 
-#: YQPkgFilterTab.cc:241
+#: YQPkgFilterTab.cc:242
 msgid "Move page &right"
 msgstr "Flytta sida &höger"
 
-#: YQPkgFilterTab.cc:249
+#: YQPkgFilterTab.cc:250
 msgid "&Close page"
 msgstr "&Stäng sida"
 

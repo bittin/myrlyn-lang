@@ -522,15 +522,15 @@ msgstr "%1 fitxers en total"
 msgid "&View"
 msgstr "&Vista"
 
-#: YQPkgFilterTab.cc:233
+#: YQPkgFilterTab.cc:234
 msgid "Move page &left"
 msgstr "Mou la pàgina a l'es&querra"
 
-#: YQPkgFilterTab.cc:241
+#: YQPkgFilterTab.cc:242
 msgid "Move page &right"
 msgstr "Mou la pàgina a la d&reta"
 
-#: YQPkgFilterTab.cc:249
+#: YQPkgFilterTab.cc:250
 msgid "&Close page"
 msgstr "Tan&ca la pàgina"
 
