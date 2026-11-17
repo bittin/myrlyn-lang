@@ -1,20 +1,3 @@
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-11-17 09:27+0000\n"
-"Last-Translator: Davidmp1 <davidmp1@noreply.codeberg.org>\n"
-"Language-Team: Catalan <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/ca/>\n"
-"Language: ca\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
-"X-Qt-Contexts: true\n"
-
 #: MyrlynApp.cc:211
 msgid " [root]"
 msgstr " [root]"
@@ -541,15 +524,15 @@ msgstr "%1 fitxers en total"
 msgid "&View"
 msgstr "&Vista"
 
-#: YQPkgFilterTab.cc:233
+#: YQPkgFilterTab.cc:234
 msgid "Move page &left"
 msgstr "Mou la pàgina a l'es&querra"
 
-#: YQPkgFilterTab.cc:241
+#: YQPkgFilterTab.cc:242
 msgid "Move page &right"
 msgstr "Mou la pàgina a la d&reta"
 
-#: YQPkgFilterTab.cc:249
+#: YQPkgFilterTab.cc:250
 msgid "&Close page"
 msgstr "Tan&ca la pàgina"
 
@@ -1331,6 +1314,23 @@ msgstr "Només instal·lació o actualització de paquets"
 #: ZyppHistoryFilterDialog.cc:160
 msgid "Only package removal"
 msgstr "Només supressió de paquets"
+
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-11-17 09:27+0000\n"
+"Last-Translator: Davidmp1 <davidmp1@noreply.codeberg.org>\n"
+"Language-Team: Catalan <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/ca/>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
+"X-Qt-Contexts: true\n"
 
 #: about-dialog.ui:14
 msgid "About Myrlyn"
