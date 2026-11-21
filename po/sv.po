@@ -31,12 +31,12 @@ msgstr ""
 "Låsningsprocess:\n"
 "PID %1   %2"
 
-#: MyrlynApp.cc:530 MyrlynRepoManager.cc:302 YQPkgConflictDialog.cc:363
+#: MyrlynApp.cc:530 MyrlynRepoManager.cc:342 YQPkgConflictDialog.cc:363
 #: YQPkgConflictList.cc:160
 msgid "Error"
 msgstr "Fel"
 
-#: MyrlynRepoManager.cc:296
+#: MyrlynRepoManager.cc:336
 msgid ""
 "Error loading the repos. Run\n"
 "\n"
@@ -50,7 +50,7 @@ msgstr ""
 "\n"
 "och starta om programmet"
 
-#: MyrlynRepoManager.cc:318
+#: MyrlynRepoManager.cc:358
 #, qt-format
 msgid ""
 "Refreshing repository \"%1\" failed.\n"
@@ -61,7 +61,7 @@ msgstr ""
 "\n"
 "Detta förråd är nu inaktiverat för den här programkörningen."
 
-#: MyrlynRepoManager.cc:329
+#: MyrlynRepoManager.cc:369
 #, qt-format
 msgid ""
 "Refreshing failed for repositories\n"
@@ -74,7 +74,7 @@ msgstr ""
 "%1\n"
 "Detta förråd är nu inaktiverat för den här programkörningen."
 
-#: MyrlynRepoManager.cc:337 YQPkgConflictDialog.cc:63
+#: MyrlynRepoManager.cc:377 YQPkgConflictDialog.cc:63
 msgid "Warning"
 msgstr "Varning"
 
@@ -366,7 +366,7 @@ msgstr "&Spara den här listan till en fil..."
 #: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:659 YQPkgSelector.cc:1300
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
 #: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
-#: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
+#: repo-gpg-key-import-dialog.ui:345 zypp-history-filter-dialog.ui:288
 msgid "&Cancel"
 msgstr "&Avbryt"
 
@@ -1500,38 +1500,46 @@ msgid "## Import Untrusted GPG Key"
 msgstr "## Importera otillförlitlig GPG-nyckel"
 
 #: repo-gpg-key-import-dialog.ui:81
-msgid "_Repository:_"
-msgstr "_Förråd:_"
+#, fuzzy
+msgid "**Repository:**"
+msgstr "Förråd"
 
-#: repo-gpg-key-import-dialog.ui:101
-msgid "_URL:_"
-msgstr "_URL:_"
+#: repo-gpg-key-import-dialog.ui:107
+#, fuzzy
+msgid "**URL:**"
+msgstr "URL:"
 
-#: repo-gpg-key-import-dialog.ui:121
-msgid "_Fingerprint:_"
+#: repo-gpg-key-import-dialog.ui:133
+#, fuzzy
+msgid "**Fingerprint:**"
 msgstr "_Fingeravtryck:_"
 
-#: repo-gpg-key-import-dialog.ui:141
-msgid "_Key Name:_"
+#: repo-gpg-key-import-dialog.ui:159
+#, fuzzy
+msgid "**Key Name:**"
 msgstr "_Nyckel namn:_"
 
-#: repo-gpg-key-import-dialog.ui:161
-msgid "_Key Algorithm:_"
+#: repo-gpg-key-import-dialog.ui:185
+#, fuzzy
+msgid "**Key Algorithm:**"
 msgstr "_Nyckel algoritm:_"
 
-#: repo-gpg-key-import-dialog.ui:181
-msgid "_Key ID:_"
+#: repo-gpg-key-import-dialog.ui:211
+#, fuzzy
+msgid "**Key ID:**"
 msgstr "_Nyckel-ID:_"
 
-#: repo-gpg-key-import-dialog.ui:201
-msgid "_Created:_"
+#: repo-gpg-key-import-dialog.ui:237
+#, fuzzy
+msgid "**Created:**"
 msgstr "_Skapad:_"
 
-#: repo-gpg-key-import-dialog.ui:221
-msgid "_Expires:_"
+#: repo-gpg-key-import-dialog.ui:263
+#, fuzzy
+msgid "**Expires:**"
 msgstr "_Går ut:_"
 
-#: repo-gpg-key-import-dialog.ui:274
+#: repo-gpg-key-import-dialog.ui:322
 msgid "&Trust"
 msgstr "&Lita på"
 
@@ -1789,6 +1797,12 @@ msgstr "Paket Ra&dera"
 #: zypp-history-filter-dialog.ui:247
 msgid "Repository &Add / Remove / Change URL / Change Alias"
 msgstr "Förråd & Lägg till / Ta bort / Ändra URL / Ändra alias"
+
+#~ msgid "_Repository:_"
+#~ msgstr "_Förråd:_"
+
+#~ msgid "_URL:_"
+#~ msgstr "_URL:_"
 
 #~ msgid "&Overview"
 #~ msgstr "&Översik"

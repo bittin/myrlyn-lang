@@ -27,12 +27,12 @@ msgid ""
 "PID %1   %2"
 msgstr ""
 
-#: MyrlynApp.cc:530 MyrlynRepoManager.cc:302 YQPkgConflictDialog.cc:363
+#: MyrlynApp.cc:530 MyrlynRepoManager.cc:342 YQPkgConflictDialog.cc:363
 #: YQPkgConflictList.cc:160
 msgid "Error"
 msgstr "错误"
 
-#: MyrlynRepoManager.cc:296
+#: MyrlynRepoManager.cc:336
 msgid ""
 "Error loading the repos. Run\n"
 "\n"
@@ -41,7 +41,7 @@ msgid ""
 "and restart the program."
 msgstr ""
 
-#: MyrlynRepoManager.cc:318
+#: MyrlynRepoManager.cc:358
 #, qt-format
 msgid ""
 "Refreshing repository \"%1\" failed.\n"
@@ -49,7 +49,7 @@ msgid ""
 "This repository is now disabled for this program run."
 msgstr ""
 
-#: MyrlynRepoManager.cc:329
+#: MyrlynRepoManager.cc:369
 #, qt-format
 msgid ""
 "Refreshing failed for repositories\n"
@@ -58,7 +58,7 @@ msgid ""
 "Those repositories are now disabled for this program run."
 msgstr ""
 
-#: MyrlynRepoManager.cc:337 YQPkgConflictDialog.cc:63
+#: MyrlynRepoManager.cc:377 YQPkgConflictDialog.cc:63
 msgid "Warning"
 msgstr "警告"
 
@@ -354,7 +354,7 @@ msgstr "将列表保存为文件(&S)..."
 #: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:659 YQPkgSelector.cc:1300
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
 #: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
-#: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
+#: repo-gpg-key-import-dialog.ui:345 zypp-history-filter-dialog.ui:288
 msgid "&Cancel"
 msgstr "取消(&C)"
 
@@ -1510,39 +1510,39 @@ msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:81
 #, fuzzy
-msgid "_Repository:_"
+msgid "**Repository:**"
 msgstr "软件源:"
 
-#: repo-gpg-key-import-dialog.ui:101
+#: repo-gpg-key-import-dialog.ui:107
 #, fuzzy
-msgid "_URL:_"
+msgid "**URL:**"
 msgstr "URL:"
 
-#: repo-gpg-key-import-dialog.ui:121
-msgid "_Fingerprint:_"
+#: repo-gpg-key-import-dialog.ui:133
+msgid "**Fingerprint:**"
 msgstr ""
 
-#: repo-gpg-key-import-dialog.ui:141
-msgid "_Key Name:_"
+#: repo-gpg-key-import-dialog.ui:159
+msgid "**Key Name:**"
 msgstr ""
 
-#: repo-gpg-key-import-dialog.ui:161
-msgid "_Key Algorithm:_"
+#: repo-gpg-key-import-dialog.ui:185
+msgid "**Key Algorithm:**"
 msgstr ""
 
-#: repo-gpg-key-import-dialog.ui:181
-msgid "_Key ID:_"
+#: repo-gpg-key-import-dialog.ui:211
+msgid "**Key ID:**"
 msgstr ""
 
-#: repo-gpg-key-import-dialog.ui:201
-msgid "_Created:_"
+#: repo-gpg-key-import-dialog.ui:237
+msgid "**Created:**"
 msgstr ""
 
-#: repo-gpg-key-import-dialog.ui:221
-msgid "_Expires:_"
+#: repo-gpg-key-import-dialog.ui:263
+msgid "**Expires:**"
 msgstr ""
 
-#: repo-gpg-key-import-dialog.ui:274
+#: repo-gpg-key-import-dialog.ui:322
 msgid "&Trust"
 msgstr ""
 
@@ -1819,6 +1819,14 @@ msgstr "软件包群组(&G)"
 #: zypp-history-filter-dialog.ui:247
 msgid "Repository &Add / Remove / Change URL / Change Alias"
 msgstr ""
+
+#, fuzzy
+#~ msgid "_Repository:_"
+#~ msgstr "软件源:"
+
+#, fuzzy
+#~ msgid "_URL:_"
+#~ msgstr "URL:"
 
 #~ msgid "&Overview"
 #~ msgstr "概览(&O)"

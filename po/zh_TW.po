@@ -31,12 +31,12 @@ msgstr ""
 "正在鎖定程序：\n"
 "PID %1   %2"
 
-#: MyrlynApp.cc:530 MyrlynRepoManager.cc:302 YQPkgConflictDialog.cc:363
+#: MyrlynApp.cc:530 MyrlynRepoManager.cc:342 YQPkgConflictDialog.cc:363
 #: YQPkgConflictList.cc:160
 msgid "Error"
 msgstr "錯誤"
 
-#: MyrlynRepoManager.cc:296
+#: MyrlynRepoManager.cc:336
 msgid ""
 "Error loading the repos. Run\n"
 "\n"
@@ -50,7 +50,7 @@ msgstr ""
 "\n"
 "然後重新啟動程式。"
 
-#: MyrlynRepoManager.cc:318
+#: MyrlynRepoManager.cc:358
 #, qt-format
 msgid ""
 "Refreshing repository \"%1\" failed.\n"
@@ -61,7 +61,7 @@ msgstr ""
 "\n"
 "此次程式執行會停用此套件庫。"
 
-#: MyrlynRepoManager.cc:329
+#: MyrlynRepoManager.cc:369
 #, qt-format
 msgid ""
 "Refreshing failed for repositories\n"
@@ -74,7 +74,7 @@ msgstr ""
 "%1\n"
 "此次程式執行會停用這些套件庫。"
 
-#: MyrlynRepoManager.cc:337 YQPkgConflictDialog.cc:63
+#: MyrlynRepoManager.cc:377 YQPkgConflictDialog.cc:63
 msgid "Warning"
 msgstr "警告"
 
@@ -366,7 +366,7 @@ msgstr "儲存此清單到檔案(&S)..."
 #: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:659 YQPkgSelector.cc:1300
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
 #: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
-#: repo-gpg-key-import-dialog.ui:297 zypp-history-filter-dialog.ui:288
+#: repo-gpg-key-import-dialog.ui:345 zypp-history-filter-dialog.ui:288
 msgid "&Cancel"
 msgstr "取消(&C)"
 
@@ -1503,38 +1503,46 @@ msgid "## Import Untrusted GPG Key"
 msgstr "## 匯入未受信任的 GPG 金鑰"
 
 #: repo-gpg-key-import-dialog.ui:81
-msgid "_Repository:_"
-msgstr "_套件庫：_"
+#, fuzzy
+msgid "**Repository:**"
+msgstr "套件庫"
 
-#: repo-gpg-key-import-dialog.ui:101
-msgid "_URL:_"
-msgstr "_網址：_"
+#: repo-gpg-key-import-dialog.ui:107
+#, fuzzy
+msgid "**URL:**"
+msgstr "URL："
 
-#: repo-gpg-key-import-dialog.ui:121
-msgid "_Fingerprint:_"
+#: repo-gpg-key-import-dialog.ui:133
+#, fuzzy
+msgid "**Fingerprint:**"
 msgstr "_指紋：_"
 
-#: repo-gpg-key-import-dialog.ui:141
-msgid "_Key Name:_"
+#: repo-gpg-key-import-dialog.ui:159
+#, fuzzy
+msgid "**Key Name:**"
 msgstr "_金鑰名稱：_"
 
-#: repo-gpg-key-import-dialog.ui:161
-msgid "_Key Algorithm:_"
+#: repo-gpg-key-import-dialog.ui:185
+#, fuzzy
+msgid "**Key Algorithm:**"
 msgstr "_金鑰演算法：_"
 
-#: repo-gpg-key-import-dialog.ui:181
-msgid "_Key ID:_"
+#: repo-gpg-key-import-dialog.ui:211
+#, fuzzy
+msgid "**Key ID:**"
 msgstr "_金鑰 ID:_"
 
-#: repo-gpg-key-import-dialog.ui:201
-msgid "_Created:_"
+#: repo-gpg-key-import-dialog.ui:237
+#, fuzzy
+msgid "**Created:**"
 msgstr "_建立於：_"
 
-#: repo-gpg-key-import-dialog.ui:221
-msgid "_Expires:_"
+#: repo-gpg-key-import-dialog.ui:263
+#, fuzzy
+msgid "**Expires:**"
 msgstr "_過期日期：_"
 
-#: repo-gpg-key-import-dialog.ui:274
+#: repo-gpg-key-import-dialog.ui:322
 msgid "&Trust"
 msgstr "信任(&T)"
 
@@ -1788,6 +1796,12 @@ msgstr "套件移除(&R)"
 #: zypp-history-filter-dialog.ui:247
 msgid "Repository &Add / Remove / Change URL / Change Alias"
 msgstr "套件庫加入 / 移除 / 變更網址 / 變更別名(&A)"
+
+#~ msgid "_Repository:_"
+#~ msgstr "_套件庫：_"
+
+#~ msgid "_URL:_"
+#~ msgstr "_網址：_"
 
 #~ msgid "&Overview"
 #~ msgstr "綜覽(&O)"
