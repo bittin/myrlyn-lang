@@ -1,3 +1,20 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-11 02:29+0000\n"
+"PO-Revision-Date: 2026-11-23 17:15+0000\n"
+"Last-Translator: slothsnow <slothsnow@noreply.codeberg.org>\n"
+"Language-Team: German <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
+"X-Qt-Contexts: true\n"
+
 #: MyrlynApp.cc:211
 msgid " [root]"
 msgstr " [root]"
@@ -1321,23 +1338,6 @@ msgstr "Nur installierte/aktualisierte Pakete"
 msgid "Only package removal"
 msgstr "Nur deinstallierte Pakete"
 
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-11-22 14:51+0000\n"
-"Last-Translator: Sauerlandlinux <Sauerlandlinux@gmx.de>\n"
-"Language-Team: German <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/de/>\n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
-"X-Qt-Contexts: true\n"
-
 #: about-dialog.ui:14
 msgid "About Myrlyn"
 msgstr "Über Myrlyn"
@@ -1559,7 +1559,7 @@ msgstr "**Verschlüsselungsverfahren:**"
 
 #: repo-gpg-key-import-dialog.ui:263
 msgid "**Expires:**"
-msgstr "**Ablaufdatum:**"
+msgstr "**Läuft ab:**"
 
 #: repo-gpg-key-import-dialog.ui:322
 msgid "&Trust"
@@ -1783,7 +1783,7 @@ msgstr "Architektur"
 
 #: zypp-history-browser.ui:172
 msgid "Repo"
-msgstr "Repository"
+msgstr "Repo"
 
 #: zypp-history-browser.ui:199
 msgid "Sho&w (+/-) Count"
