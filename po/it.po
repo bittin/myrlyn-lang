@@ -27,12 +27,12 @@ msgid ""
 "PID %1   %2"
 msgstr ""
 
-#: MyrlynApp.cc:530 MyrlynRepoManager.cc:342 YQPkgConflictDialog.cc:363
+#: MyrlynApp.cc:530 MyrlynRepoManager.cc:341 YQPkgConflictDialog.cc:363
 #: YQPkgConflictList.cc:160
 msgid "Error"
 msgstr "Errore"
 
-#: MyrlynRepoManager.cc:336
+#: MyrlynRepoManager.cc:335
 msgid ""
 "Error loading the repos. Run\n"
 "\n"
@@ -41,7 +41,7 @@ msgid ""
 "and restart the program."
 msgstr ""
 
-#: MyrlynRepoManager.cc:358
+#: MyrlynRepoManager.cc:357
 #, qt-format
 msgid ""
 "Refreshing repository \"%1\" failed.\n"
@@ -49,7 +49,7 @@ msgid ""
 "This repository is now disabled for this program run."
 msgstr ""
 
-#: MyrlynRepoManager.cc:369
+#: MyrlynRepoManager.cc:368
 #, qt-format
 msgid ""
 "Refreshing failed for repositories\n"
@@ -58,7 +58,7 @@ msgid ""
 "Those repositories are now disabled for this program run."
 msgstr ""
 
-#: MyrlynRepoManager.cc:377 YQPkgConflictDialog.cc:63
+#: MyrlynRepoManager.cc:376 YQPkgConflictDialog.cc:63
 msgid "Warning"
 msgstr "Avviso"
 
@@ -369,7 +369,8 @@ msgstr "Sal&va questo elenco in un file..."
 
 #: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:659 YQPkgSelector.cc:1300
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
-#: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
+#: expired-gpg-key-dialog.ui:298 ../aux/myrlyn-askpass.ui:165
+#: pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:345 zypp-history-filter-dialog.ui:288
 msgid "&Cancel"
 msgstr "&Annulla"
@@ -1497,6 +1498,47 @@ msgstr ""
 msgid "### Contributors\n"
 msgstr ""
 
+#: expired-gpg-key-dialog.ui:14 repo-gpg-key-import-dialog.ui:14
+msgid "GPG Key"
+msgstr ""
+
+#: expired-gpg-key-dialog.ui:41
+msgid "## Expired Repository GPG Key"
+msgstr ""
+
+#: expired-gpg-key-dialog.ui:81 repo-gpg-key-import-dialog.ui:133
+msgid "**Fingerprint:**"
+msgstr ""
+
+#: expired-gpg-key-dialog.ui:117 repo-gpg-key-import-dialog.ui:211
+msgid "**Key ID:**"
+msgstr ""
+
+#: expired-gpg-key-dialog.ui:143 repo-gpg-key-import-dialog.ui:237
+msgid "**Created:**"
+msgstr ""
+
+#: expired-gpg-key-dialog.ui:169
+msgid "**Expired:**"
+msgstr ""
+
+#: expired-gpg-key-dialog.ui:195 repo-gpg-key-import-dialog.ui:159
+msgid "**Key Name:**"
+msgstr ""
+
+#: expired-gpg-key-dialog.ui:229
+msgid ""
+"Delete this GPG key; it can no longer be used.\n"
+"\n"
+"If it is still needed, in the next step (repositories refresh), the latest "
+"version will be reimported from its repository."
+msgstr ""
+
+#: expired-gpg-key-dialog.ui:275
+#, fuzzy
+msgid "&Delete Key"
+msgstr "Elimina"
+
 #: init-repos-page.ui:15 pkg-commit-page.ui:15 search-filter-view.ui:14
 #: status-filter-view.ui:14 summary-page.ui:15 updates-filter-view.ui:14
 msgid "Form"
@@ -1625,10 +1667,6 @@ msgstr "&Repository"
 msgid "Raw &URL"
 msgstr ""
 
-#: repo-gpg-key-import-dialog.ui:14
-msgid "GPG Key"
-msgstr ""
-
 #: repo-gpg-key-import-dialog.ui:41
 msgid "## Import Untrusted GPG Key"
 msgstr ""
@@ -1643,24 +1681,8 @@ msgstr "Repository:"
 msgid "**URL:**"
 msgstr "URL:"
 
-#: repo-gpg-key-import-dialog.ui:133
-msgid "**Fingerprint:**"
-msgstr ""
-
-#: repo-gpg-key-import-dialog.ui:159
-msgid "**Key Name:**"
-msgstr ""
-
 #: repo-gpg-key-import-dialog.ui:185
 msgid "**Key Algorithm:**"
-msgstr ""
-
-#: repo-gpg-key-import-dialog.ui:211
-msgid "**Key ID:**"
-msgstr ""
-
-#: repo-gpg-key-import-dialog.ui:237
-msgid "**Created:**"
 msgstr ""
 
 #: repo-gpg-key-import-dialog.ui:263

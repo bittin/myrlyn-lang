@@ -1,20 +1,3 @@
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 02:29+0000\n"
-"PO-Revision-Date: 2026-11-22 14:51+0000\n"
-"Last-Translator: gallegonovato <gallegonovato@noreply.codeberg.org>\n"
-"Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
-"myrlyn-lang/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.1\n"
-"X-Qt-Contexts: true\n"
-
 #: MyrlynApp.cc:211
 msgid " [root]"
 msgstr " [root]"
@@ -48,12 +31,12 @@ msgstr ""
 "Proceso de bloqueo:\n"
 "PID %1   %2"
 
-#: MyrlynApp.cc:530 MyrlynRepoManager.cc:342 YQPkgConflictDialog.cc:363
+#: MyrlynApp.cc:530 MyrlynRepoManager.cc:341 YQPkgConflictDialog.cc:363
 #: YQPkgConflictList.cc:160
 msgid "Error"
 msgstr "Error"
 
-#: MyrlynRepoManager.cc:336
+#: MyrlynRepoManager.cc:335
 msgid ""
 "Error loading the repos. Run\n"
 "\n"
@@ -67,7 +50,7 @@ msgstr ""
 "\n"
 "y reinicie el programa."
 
-#: MyrlynRepoManager.cc:358
+#: MyrlynRepoManager.cc:357
 #, qt-format
 msgid ""
 "Refreshing repository \"%1\" failed.\n"
@@ -78,7 +61,7 @@ msgstr ""
 "\n"
 "Este repositorio quedará desactivado durante esta sesión del programa."
 
-#: MyrlynRepoManager.cc:369
+#: MyrlynRepoManager.cc:368
 #, qt-format
 msgid ""
 "Refreshing failed for repositories\n"
@@ -91,7 +74,7 @@ msgstr ""
 "%1\n"
 "Estos repositorios se desactivarán para la presente ejecución del programa."
 
-#: MyrlynRepoManager.cc:377 YQPkgConflictDialog.cc:63
+#: MyrlynRepoManager.cc:376 YQPkgConflictDialog.cc:63
 msgid "Warning"
 msgstr "Advertencia"
 
@@ -404,7 +387,8 @@ msgstr "&Guardar este listado en un archivo..."
 
 #: YQPkgConflictDialog.cc:135 YQPkgSelector.cc:659 YQPkgSelector.cc:1300
 #: YQPkgSelectorBase.cc:148 YQPkgSelectorBase.cc:271 YQPkgTextDialog.cc:235
-#: ../aux/myrlyn-askpass.ui:165 pkg-commit-page.ui:489 repo-edit-add.ui:362
+#: expired-gpg-key-dialog.ui:298 ../aux/myrlyn-askpass.ui:165
+#: pkg-commit-page.ui:489 repo-edit-add.ui:362
 #: repo-gpg-key-import-dialog.ui:345 zypp-history-filter-dialog.ui:288
 msgid "&Cancel"
 msgstr "&Cancelar"
@@ -1369,6 +1353,23 @@ msgstr "Solo instalar / actualizar paquetes"
 msgid "Only package removal"
 msgstr "Solo eliminar paquetes"
 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-11 02:29+0000\n"
+"PO-Revision-Date: 2026-11-22 14:51+0000\n"
+"Last-Translator: gallegonovato <gallegonovato@noreply.codeberg.org>\n"
+"Language-Team: Spanish <https://translate.codeberg.org/projects/myrlyn-lang/"
+"myrlyn-lang/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
+"X-Qt-Contexts: true\n"
+
 #: about-dialog.ui:14
 msgid "About Myrlyn"
 msgstr "Acerca de Myrlyn"
@@ -1416,6 +1417,48 @@ msgstr ""
 #: about-dialog.ui:161
 msgid "### Contributors\n"
 msgstr "### Colaboradores\n"
+
+#: expired-gpg-key-dialog.ui:14 repo-gpg-key-import-dialog.ui:14
+msgid "GPG Key"
+msgstr "Clave pública GPG"
+
+#: expired-gpg-key-dialog.ui:41
+msgid "## Expired Repository GPG Key"
+msgstr ""
+
+#: expired-gpg-key-dialog.ui:81 repo-gpg-key-import-dialog.ui:133
+msgid "**Fingerprint:**"
+msgstr "**Huella digital:**"
+
+#: expired-gpg-key-dialog.ui:117 repo-gpg-key-import-dialog.ui:211
+msgid "**Key ID:**"
+msgstr "**Identificador de la clave:**"
+
+#: expired-gpg-key-dialog.ui:143 repo-gpg-key-import-dialog.ui:237
+msgid "**Created:**"
+msgstr "**Fecha de creación:**"
+
+#: expired-gpg-key-dialog.ui:169
+#, fuzzy
+msgid "**Expired:**"
+msgstr "**Caduca:**"
+
+#: expired-gpg-key-dialog.ui:195 repo-gpg-key-import-dialog.ui:159
+msgid "**Key Name:**"
+msgstr "**Nombre de la clave:**"
+
+#: expired-gpg-key-dialog.ui:229
+msgid ""
+"Delete this GPG key; it can no longer be used.\n"
+"\n"
+"If it is still needed, in the next step (repositories refresh), the latest "
+"version will be reimported from its repository."
+msgstr ""
+
+#: expired-gpg-key-dialog.ui:275
+#, fuzzy
+msgid "&Delete Key"
+msgstr "&Borrar"
 
 #: init-repos-page.ui:15 pkg-commit-page.ui:15 search-filter-view.ui:14
 #: status-filter-view.ui:14 summary-page.ui:15 updates-filter-view.ui:14
@@ -1536,10 +1579,6 @@ msgstr "Nombre del repositorio"
 msgid "Raw &URL"
 msgstr "&URL sin procesar"
 
-#: repo-gpg-key-import-dialog.ui:14
-msgid "GPG Key"
-msgstr "Clave pública GPG"
-
 #: repo-gpg-key-import-dialog.ui:41
 msgid "## Import Untrusted GPG Key"
 msgstr "## Importar llave GPG no confiable"
@@ -1552,25 +1591,9 @@ msgstr "**Repositorio:**"
 msgid "**URL:**"
 msgstr "**URL:**"
 
-#: repo-gpg-key-import-dialog.ui:133
-msgid "**Fingerprint:**"
-msgstr "**Huella digital:**"
-
-#: repo-gpg-key-import-dialog.ui:159
-msgid "**Key Name:**"
-msgstr "**Nombre de la clave:**"
-
 #: repo-gpg-key-import-dialog.ui:185
 msgid "**Key Algorithm:**"
 msgstr "**Algoritmo de la clave:**"
-
-#: repo-gpg-key-import-dialog.ui:211
-msgid "**Key ID:**"
-msgstr "**Identificador de la clave:**"
-
-#: repo-gpg-key-import-dialog.ui:237
-msgid "**Created:**"
-msgstr "**Fecha de creación:**"
 
 #: repo-gpg-key-import-dialog.ui:263
 msgid "**Expires:**"
